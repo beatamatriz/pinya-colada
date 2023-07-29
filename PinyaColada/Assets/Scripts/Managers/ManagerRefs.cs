@@ -7,7 +7,7 @@ public class ManagerRefs : MonoBehaviour {
     [HideInInspector] public CountdownManager cM;
     [HideInInspector] public EndingManager eM;
     [HideInInspector] public GameManager gM;
-
+    [HideInInspector] public PlayerLog pL;
     private void Awake() {
         if (instance == null) {
             instance = this;
