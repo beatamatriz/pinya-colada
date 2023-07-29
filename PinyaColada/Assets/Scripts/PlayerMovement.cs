@@ -10,9 +10,9 @@ public class PlayerMovement : MonoBehaviour {
         rB = GetComponent<Rigidbody2D>();
     }
 
-    void Update()
-    {
-        Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        rB.velocity = Vector2.right;
+    void Update() {
+        //if (Camera.main.ScreenToWorldPoint(Input.mousePosition).x < -10) {
+        //    rB.velocity = Vector2.right;
+        //}
     }
 }
