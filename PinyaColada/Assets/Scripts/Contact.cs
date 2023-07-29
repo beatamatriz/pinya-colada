@@ -21,6 +21,5 @@ public class Contact : MonoBehaviour{
     }
 
     void StartPhoneCall(){
-        if()
     }
 }
