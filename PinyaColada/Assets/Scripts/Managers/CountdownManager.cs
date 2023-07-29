@@ -8,10 +8,15 @@ public class CountdownManager : MonoBehaviour {
     
     public float timeSpeed = 1;
     public float timeFastSpeed = 1;
+    public bool isGameStarted = false;
 
     void Update() {
-        if (timeSpeed < 0) {
-            Debug.LogWarning("¡La velocidad del tiempo es negativa!");
+        if (isGameStarted) {
+            if (timeSpeed < 0) {
+                Debug.LogWarning("¡La velocidad del tiempo es negativa!");
+            }
+
+            time -= Time.deltaTime * timeSpeed;
         }
     }
 

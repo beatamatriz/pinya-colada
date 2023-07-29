@@ -15,7 +15,6 @@ public class InteractableObject : MonoBehaviour {
     public void CallInteraction() {
         if (!isActive) {
             ManagerRefs.instance.gM.objTextbox.text = "";
-            ManagerRefs.instance.gM.interactionPanel.SetActive(true);
             counter = txtSpeed;
             objTextIndex = 0;
 
@@ -41,8 +40,6 @@ public class InteractableObject : MonoBehaviour {
 
         } else if (isActive && ManagerRefs.instance.gM.objTextbox.text == objText) {
             if (Input.GetMouseButtonDown(0)) {
-                ManagerRefs.instance.gM.interactionPanel.SetActive(false);
-
                 StartCoroutine(DeactivateWait());
             }
         }
