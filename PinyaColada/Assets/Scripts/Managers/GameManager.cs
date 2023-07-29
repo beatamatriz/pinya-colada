@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour {
     public GameObject mainScreen;
     public float startGameCounter = 2;
     public float MainScreenSafeTime = 1;
+    public Mobile mobileSmall;
 
     private void Update() {
         if (mainScreen.activeInHierarchy) {
@@ -20,6 +21,8 @@ public class GameManager : MonoBehaviour {
             if (Input.GetMouseButtonDown(0) && startGameCounter <= 0) {
                 mainScreen.GetComponent<Animator>().SetTrigger("Start");
                 ManagerRefs.instance.cM.isGameStarted = true;
+                mobileSmall.PhoneSetup();
+                StartCoroutine(MainScreenSafe());
             }
         }
     }
@@ -27,6 +30,6 @@ public class GameManager : MonoBehaviour {
     IEnumerator MainScreenSafe() {
         yield return new WaitForSeconds(MainScreenSafeTime);
 
-
+        mainScreen.SetActive(false);
     }
 }

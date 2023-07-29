@@ -49,6 +49,7 @@ MonoBehaviour:
   cM: {fileID: 0}
   eM: {fileID: 0}
   gM: {fileID: 0}
+  pL: {fileID: 0}
 --- !u!114 &409263343308378134
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,7 +62,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a532508ace60045a4dd9abeb58cc9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 1800
+  time: 16
   timeSpeed: 1
   timeFastSpeed: 1
   isGameStarted: 0

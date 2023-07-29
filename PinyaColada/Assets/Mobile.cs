@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class Mobile : MonoBehaviour
 {
-    public UnityEngine.UI.Image mobile;
+    public Image mobile;
     public Sprite colouredMobile, blackAndWhite;
     public Button mobileButton;
     public float timeToMakePhoneInteractable = 4;
@@ -13,12 +13,17 @@ public class Mobile : MonoBehaviour
     {
         mobile.sprite = blackAndWhite;
         mobileButton.enabled = false;
+        
+    }
+
+    public void PhoneSetup() {
         Invoke(nameof(MakePhoneInteractable), timeToMakePhoneInteractable);
     }
+
     // Start is called before the first frame update
     public void MakePhoneInteractable()
     {
-        GetComponent<UnityEngine.UI.Image>().sprite = colouredMobile;
+        GetComponent<Image>().sprite = colouredMobile;
         mobileButton.enabled = true;
     }
     public void InteractWithMobile()
