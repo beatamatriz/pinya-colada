@@ -13,8 +13,6 @@ public class CountdownManager : MonoBehaviour {
         if (timeSpeed < 0) {
             Debug.LogWarning("¡La velocidad del tiempo es negativa!");
         }
-        
-         time -= Time.deltaTime * timeSpeed;
     }
 
     public void UpdateTimeSpeed() {

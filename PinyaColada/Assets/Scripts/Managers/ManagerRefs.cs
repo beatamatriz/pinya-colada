@@ -6,6 +6,7 @@ public class ManagerRefs : MonoBehaviour {
     [HideInInspector] public static ManagerRefs instance;
     [HideInInspector] public CountdownManager cM;
     [HideInInspector] public EndingManager eM;
+    [HideInInspector] public GameManager gM;
 
     private void Awake() {
         if (instance == null) {
@@ -16,5 +17,6 @@ public class ManagerRefs : MonoBehaviour {
     private void Start() {
         cM = GetComponent<CountdownManager>();
         eM = GetComponent<EndingManager>();
+        gM = GetComponent<GameManager>();
     }
 }
