@@ -5,7 +5,7 @@ El propósito de este script es controlar la pantalla del fin del juego. Verific
 para obtener el final bueno de cada ruta. - Bea
 */
 
-public class Ender : MonoBehaviour
+public class EndingManager : MonoBehaviour
 {
     // TODO: modificar esto - Bea
     static readonly String MomGoodEnding1 = "012311303";
