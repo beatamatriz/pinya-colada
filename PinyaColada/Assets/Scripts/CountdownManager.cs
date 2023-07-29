@@ -2,18 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CountdownManager : MonoBehaviour{
-    [Range(1, 1800)]
-    public int time_remaining;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+public class CountdownManager : MonoBehaviour {
+    [Range(0, 1800)] public float time;
+    public float timeSpeed;
 
-    // Update is called once per frame
     void Update()
     {
-        
+         time -= Time.deltaTime * timeSpeed;
     }
 }
