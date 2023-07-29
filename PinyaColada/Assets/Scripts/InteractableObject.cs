@@ -27,6 +27,7 @@ public class InteractableObject : MonoBehaviour {
         if (isActive && ManagerRefs.instance.gM.objTextbox.text != objText) {
             //Completar texto poco a poco.
             counter -= Time.deltaTime;
+
             if (counter <= 0) {
                 ManagerRefs.instance.gM.objTextbox.text += objText[objTextIndex];
                 objTextIndex++;
