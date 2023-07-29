@@ -14,7 +14,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using VIDE_Data; //<--- Import to use VD class
 
-public class Template_UIManager : MonoBehaviour
+public class DialogueManager : MonoBehaviour
 {
     #region VARS
 
