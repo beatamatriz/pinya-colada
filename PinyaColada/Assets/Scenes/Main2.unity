@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414727, b: 0.121078536, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -2460,16 +2460,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2031150798}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fedbcc75e40da154e9fbb4cbcc468049, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minLeft: -5
-  minRight: 5
-  limitLeft: -2000
-  limitRight: 500
-  speedMultiplier: 100
+  minLeft: 157.6
+  minRight: 166
+  limitLeft: 1465
+  limitRight: 460
+  speedMultiplier: 7000
 --- !u!50 &2031150803
 Rigidbody2D:
   serializedVersion: 4

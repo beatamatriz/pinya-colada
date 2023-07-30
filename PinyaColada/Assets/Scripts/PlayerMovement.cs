@@ -6,16 +6,16 @@ public class PlayerMovement : MonoBehaviour {
 
     private Rigidbody2D rB;
 
-    [Tooltip("The minimum X value for the screen to start scrolling left (I think -5 works well)")]
+    [Tooltip("The minimum X value for the screen to start scrolling left")]
     public float minLeft;
-    [Tooltip("The minimum X value for the screen to start scrolling right (I think 5 works well)")]
+    [Tooltip("The minimum X value for the screen to start scrolling right")]
     public float minRight;
     [Tooltip("The maximum X value the object can scroll to by the left")]
     public float limitLeft;
     [Tooltip("The maximum X value the object can scroll to by the right")]
     public float limitRight;
 
-    public float speedMultiplier = 1;
+    public float speedMultiplier;
 
     void Start() {
         rB = GetComponent<Rigidbody2D>();
@@ -26,23 +26,24 @@ public class PlayerMovement : MonoBehaviour {
         float objX = transform.position.x;
 
         if (mouseX < minLeft) {
-            if (objX > -limitLeft) {
+            if (objX > limitLeft) {
                 rB.velocity = Vector2.zero;
                 Debug.Log("reached screen limits");
                 return;
             }
-            rB.velocity = Vector2.right * speedMultiplier * 300 * (mouseX - minLeft) / minLeft;
+            // might not work if minLeft is negative
+            rB.velocity = Vector2.right * -speedMultiplier * (mouseX - minLeft) / minLeft;
             Debug.Log("scrolling left");
             return;
         }
 
         if (mouseX > minRight) {
-            if (objX < -limitRight) {
+            if (objX < limitRight) {
                 rB.velocity = Vector2.zero;
                 Debug.Log("reached screen limits");
                 return;
             }
-            rB.velocity = Vector2.left * speedMultiplier * 300 * (mouseX - minRight) / minRight;
+            rB.velocity = Vector2.left * speedMultiplier * (mouseX - minRight) / minRight;
             Debug.Log("scrolling right");
             return;
         }
