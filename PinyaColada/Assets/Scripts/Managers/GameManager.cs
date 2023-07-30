@@ -27,6 +27,10 @@ public class GameManager : MonoBehaviour {
         }
     }
 
+    public void EndSelection(int endIndex) {
+        PlayerElections.instance.endIndex = endIndex;
+    }
+
     IEnumerator MainScreenSafe() {
         yield return new WaitForSeconds(MainScreenSafeTime);
 

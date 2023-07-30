@@ -10,6 +10,11 @@ public class CountdownManager : MonoBehaviour {
     public float timeFastSpeed = 1;
     public bool isGameStarted = false;
 
+    public GameObject meteorite;
+    public Transform meteoriteObjective;
+    
+
+
     void Update() {
         if (isGameStarted) {
             if (timeSpeed < 0) {
@@ -17,7 +22,13 @@ public class CountdownManager : MonoBehaviour {
             }
 
             time -= Time.deltaTime * timeSpeed;
+
+            MeteoriteFall();
         }
+    }
+
+    void MeteoriteFall() {
+        meteorite.transform.position = Vector3.MoveTowards(meteorite.transform.position, meteoriteObjective.position, timeSpeed * Time.deltaTime);
     }
 
     public void UpdateTimeSpeed() {
