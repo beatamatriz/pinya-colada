@@ -2473,7 +2473,7 @@ MonoBehaviour:
   minRight: 166
   limitLeft: 1465
   limitRight: 460
-  speedMultiplier: 7000
+  speedMultiplier: 13000
 --- !u!50 &2031150803
 Rigidbody2D:
   serializedVersion: 4
