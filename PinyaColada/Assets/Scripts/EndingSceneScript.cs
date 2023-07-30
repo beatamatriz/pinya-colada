@@ -7,7 +7,6 @@ public class EndingSceneScript : MonoBehaviour {
 
     public static EndingSceneScript ins;
 
-    public GameObject neutralEnd;
     public GameObject badEnd;
     public GameObject goodEnd;
 
@@ -17,13 +16,15 @@ public class EndingSceneScript : MonoBehaviour {
         if (ins == null) {
             ins = this;
         }
+
+        if (PlayerElections.ins.goodEnding) {
+            GoodActivate();
+        } else {
+            BadActivate();
+        }
     }
 
     #region Activación de finales
-    public void NeutralActivate() {
-        neutralEnd.SetActive(true);
-    }
-
     public void BadActivate() {
         badEnd.SetActive(true);
     }

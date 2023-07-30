@@ -6,6 +6,7 @@ public class MobileUp : MonoBehaviour
 {
     public Sprite mobileAgenda, mobileCalling, mobileMum;
     public DialogueCreator dialogueCreator;
+    public DialogueContainer dialogueContainer;
     public Image mobileUp;
     public GameObject buttonAdvanceDialogue;
     public float timeCalling = 2;
@@ -49,6 +50,9 @@ public class MobileUp : MonoBehaviour
             buttonAdvanceDialogue.SetActive(false);
             print("ending dialogue");
             mobile.arrowContinue.SetActive(false);
+            dialogueContainer.backNPC.SetActive(false);
+            dialogueContainer.backPlayer.SetActive(false);
+
             gameObject.SetActive(false);
         }
         canEndialog = true;

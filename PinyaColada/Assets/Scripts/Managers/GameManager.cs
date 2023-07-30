@@ -27,13 +27,13 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    public void EndSelection(int endIndex) {
-        PlayerElections.ins.endIndex = endIndex;
-    }
-
     IEnumerator MainScreenSafe() {
         yield return new WaitForSeconds(MainScreenSafeTime);
 
         mainScreen.SetActive(false);
+    }
+
+    public void CallWin() {
+        PlayerElections.ins.goodEnding = true;
     }
 }

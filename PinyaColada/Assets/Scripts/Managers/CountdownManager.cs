@@ -13,7 +13,7 @@ public class CountdownManager : MonoBehaviour {
 
     public GameObject meteorite;
     public Transform meteoriteObjective;
-    public Image orangeRoom;
+    public List<Image> colorChangeObjects;
     public float orangeRoomLifetimeSpeed;
     
 
@@ -32,7 +32,9 @@ public class CountdownManager : MonoBehaviour {
     }
 
     void AlphaChange() {
-        orangeRoom.color = new Color(orangeRoom.color.r, orangeRoom.color.g, orangeRoom.color.b, orangeRoom.color.a - Time.deltaTime * orangeRoomLifetimeSpeed);
+        foreach (Image c in colorChangeObjects) {
+            c.color = new Color(c.color.r, c.color.g, c.color.b, c.color.a - Time.deltaTime * orangeRoomLifetimeSpeed);
+        }
     }
 
     void MeteoriteFall() {

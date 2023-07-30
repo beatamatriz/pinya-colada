@@ -8,9 +8,9 @@ public class PlayerElections : MonoBehaviour {
 
     [HideInInspector] public AudioManager aM;
 
-    [Tooltip("Número que indica qué final hemos sacado.")] public int endIndex = 0;
+    [Tooltip("Número que indica qué final hemos sacado.")] public bool goodEnding = false;
     public Scene endScene;
-    
+
     private void Awake() {
         DontDestroyOnLoad(gameObject);
 
@@ -21,19 +21,7 @@ public class PlayerElections : MonoBehaviour {
         aM = GetComponent<AudioManager>();
     }
 
-    private void OnLevelWasLoaded(int level) {
-        if (level == endScene.buildIndex) {
-            //Selección de finales
-            switch (endIndex) {
-                case 1:
-                    EndingSceneScript.ins.BadActivate();
-                    break;
-                case 2:
-                    EndingSceneScript.ins.GoodActivate();
-                    break;
-                default:
-                    break;
-            }
-        }
+    public void Win() {
+        goodEnding = true;
     }
 }
