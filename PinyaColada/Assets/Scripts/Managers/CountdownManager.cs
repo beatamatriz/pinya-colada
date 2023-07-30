@@ -24,6 +24,10 @@ public class CountdownManager : MonoBehaviour {
                 Debug.LogWarning("¡La velocidad del tiempo es negativa!");
             }
 
+            if (time <= 0) {
+                UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+            }
+
             time -= Time.deltaTime * timeSpeed;
 
             MeteoriteFall();
