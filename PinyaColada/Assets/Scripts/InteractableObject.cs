@@ -10,6 +10,10 @@ public class InteractableObject : MonoBehaviour {
     public float txtSpeed;
     private float counter;
 
+    public GameObject bGPanel;
+    public float txtLifetime;
+    public bool endWritingFirst = false;
+
     bool isActive = false;
 
     public void CallInteraction() {
@@ -39,15 +43,33 @@ public class InteractableObject : MonoBehaviour {
             }
 
         } else if (isActive && ManagerRefs.instance.gM.objTextbox.text == objText) {
+            if (!endWritingFirst) {
+                endWritingFirst = true;
+            }
+
             if (Input.GetMouseButtonDown(0)) {
                 StartCoroutine(DeactivateWait());
             }
+        }
+
+        if (ManagerRefs.instance.gM.objTextbox.text == "") {
+            bGPanel.SetActive(false);
+        } else {
+            bGPanel.SetActive(true);
         }
     }
 
     IEnumerator DeactivateWait() {
         yield return new WaitForSeconds(deactivationSafe);
 
+        ManagerRefs.instance.gM.objTextbox.text = "";
+
         isActive = false;
+    }
+
+    IEnumerator TextLife() {
+        yield return new WaitForSeconds(txtLifetime);
+
+        ManagerRefs.instance.gM.objTextbox.text = "";
     }
 }

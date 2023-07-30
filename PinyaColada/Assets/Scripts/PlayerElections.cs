@@ -8,7 +8,7 @@ public class PlayerElections : MonoBehaviour {
 
     [HideInInspector] public AudioManager aM;
 
-    [Tooltip("Número que indica qué final hemos sacado.")] public int endIndex;
+    [Tooltip("Número que indica qué final hemos sacado.")] public int endIndex = 0;
     public Scene endScene;
     
     private void Awake() {
@@ -26,8 +26,10 @@ public class PlayerElections : MonoBehaviour {
             //Selección de finales
             switch (endIndex) {
                 case 1:
+                    EndingSceneScript.ins.BadActivate();
                     break;
                 case 2:
+                    EndingSceneScript.ins.GoodActivate();
                     break;
                 default:
                     break;
