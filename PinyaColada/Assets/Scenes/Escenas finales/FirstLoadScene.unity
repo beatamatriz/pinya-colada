@@ -179,10 +179,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Non Destructible Managers
       objectReference: {fileID: 0}
-    - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
-      propertyPath: sounds.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

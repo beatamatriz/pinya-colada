@@ -13,6 +13,7 @@ public class Mobile : MonoBehaviour
     {
         mobile.sprite = blackAndWhite;
         mobileButton.enabled = false;
+        PlayerElections.ins.aM.Play("Musica");
     }
     public void PhoneSetup()
     {

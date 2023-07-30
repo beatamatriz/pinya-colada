@@ -45,7 +45,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9811923aaeb93a34ab3ed824e7690950, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - name: Musica
+    clip: {fileID: 8300000, guid: 5b583c7ae65dbee7bbcea9481c59f82a, type: 3}
+    volume: 0.501
+    pitch: 0
+    loop: 1
+    source: {fileID: 0}
+  - name: Meteorito
+    clip: {fileID: 8300000, guid: 953542f84a7ec63ddb15b6f3ab19e91e, type: 3}
+    volume: 0.583
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Final Bueno
+    clip: {fileID: 8300000, guid: 8024ad918f4aab93088661a6e59d9e4b, type: 3}
+    volume: 0.463
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
+  - name: Final Malo
+    clip: {fileID: 8300000, guid: 9c708ef78a1f99393bfd41a46ccddc0b, type: 3}
+    volume: 0.508
+    pitch: 0
+    loop: 0
+    source: {fileID: 0}
 --- !u!114 &9054011287563685885
 MonoBehaviour:
   m_ObjectHideFlags: 0

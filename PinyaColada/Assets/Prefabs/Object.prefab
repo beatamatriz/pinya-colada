@@ -146,6 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a57658af3ad6a1b4b9adb339e5dcb62a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objText: este texto es diferente del anterior.
+  objText: "un peluche de la mascota de Peque\xF1os, mi madre me la compro de peque\xF1a
+    un d\xEDa que fuimos al centro comercial a hacer las tareas.\n"
   deactivationSafe: 0.2
   txtSpeed: 0.01
