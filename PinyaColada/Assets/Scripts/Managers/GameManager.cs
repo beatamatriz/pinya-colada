@@ -28,7 +28,7 @@ public class GameManager : MonoBehaviour {
     }
 
     public void EndSelection(int endIndex) {
-        PlayerElections.instance.endIndex = endIndex;
+        PlayerElections.ins.endIndex = endIndex;
     }
 
     IEnumerator MainScreenSafe() {
