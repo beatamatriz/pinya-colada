@@ -9,11 +9,13 @@ public class Mobile : MonoBehaviour
     public Button mobileButton;
     public float timeToMakePhoneInteractable = 4;
     public GameObject mobileUI;
+    public GameObject arrowContinue;
     void Start()
     {
         mobile.sprite = blackAndWhite;
         mobileButton.enabled = false;
         PlayerElections.ins.aM.Play("Musica");
+        arrowContinue.SetActive(false);
     }
     public void PhoneSetup()
     {
@@ -30,5 +32,6 @@ public class Mobile : MonoBehaviour
         print("Interacting with mobileUI");
         mobileUI.SetActive(true);
         gameObject.SetActive(false);
+        arrowContinue.SetActive(true);
     }
 }

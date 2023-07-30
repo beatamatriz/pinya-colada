@@ -14,6 +14,8 @@ public class MobileUp : MonoBehaviour
     private void Start()
     {
         gameObject.SetActive(false);
+        //para la ui
+        // UnityEngine.SceneManagement.SceneManager.LoadScene("", UnityEngine.SceneManagement.LoadSceneMode.Additive);
     }
     public void CallMum()
     {
@@ -46,6 +48,7 @@ public class MobileUp : MonoBehaviour
             mobileUp.sprite = mobileAgenda;
             buttonAdvanceDialogue.SetActive(false);
             print("ending dialogue");
+            mobile.arrowContinue.SetActive(false);
             gameObject.SetActive(false);
         }
         canEndialog = true;
