@@ -91,11 +91,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mobile: {fileID: 6130932278785212577}
-  colouredMobile: {fileID: 21300000, guid: 7efedbf8f1ed95f06bcffe75556dcbc1, type: 3}
-  blackAndWhite: {fileID: 21300000, guid: 54704ec1b4c1680bf85b44d76e80f53b, type: 3}
+  colouredMobile: {fileID: 21300000, guid: 62b592ea0e267986c9b3d05ee2cc8ebc, type: 3}
+  blackAndWhite: {fileID: 21300000, guid: eca4487d75cea111dab2a4cd3b8be0b5, type: 3}
   mobileButton: {fileID: 6721024031187671802}
   timeToMakePhoneInteractable: 2
   mobileUI: {fileID: 0}
+  arrowContinue: {fileID: 0}
 --- !u!114 &6721024031187671802
 MonoBehaviour:
   m_ObjectHideFlags: 0
