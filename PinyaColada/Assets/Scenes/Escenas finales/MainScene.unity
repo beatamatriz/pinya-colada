@@ -366,8 +366,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: e25f85ee4fa5a8f0bbfccb3d7970cee0, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -435,7 +435,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1708,7 +1708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7866114341942017905, guid: 24af5a866fd6895469dfa6ae636fd344, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3575,6 +3575,10 @@ PrefabInstance:
       propertyPath: dialogueCreator
       value: 
       objectReference: {fileID: 1630843248}
+    - target: {fileID: 8261475005706485842, guid: 85233f7724b687f4b8f2f6c154f8cf23, type: 3}
+      propertyPath: dialogueContainer
+      value: 
+      objectReference: {fileID: 1371016022}
     - target: {fileID: 8261475005706485842, guid: 85233f7724b687f4b8f2f6c154f8cf23, type: 3}
       propertyPath: buttonAdvanceDialogue
       value: 
