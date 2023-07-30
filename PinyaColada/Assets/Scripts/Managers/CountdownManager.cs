@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CountdownManager : MonoBehaviour {
     [Header("Time Variables")]
@@ -12,6 +13,8 @@ public class CountdownManager : MonoBehaviour {
 
     public GameObject meteorite;
     public Transform meteoriteObjective;
+    public Image orangeRoom;
+    public float orangeRoomLifetimeSpeed;
     
 
 
@@ -24,7 +27,12 @@ public class CountdownManager : MonoBehaviour {
             time -= Time.deltaTime * timeSpeed;
 
             MeteoriteFall();
+            AlphaChange();
         }
+    }
+
+    void AlphaChange() {
+        orangeRoom.color = new Color(orangeRoom.color.r, orangeRoom.color.g, orangeRoom.color.b, orangeRoom.color.a - Time.deltaTime * orangeRoomLifetimeSpeed);
     }
 
     void MeteoriteFall() {
