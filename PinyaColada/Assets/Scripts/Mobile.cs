@@ -13,13 +13,11 @@ public class Mobile : MonoBehaviour
     {
         mobile.sprite = blackAndWhite;
         mobileButton.enabled = false;
-        
     }
-
-    public void PhoneSetup() {
+    public void PhoneSetup()
+    {
         Invoke(nameof(MakePhoneInteractable), timeToMakePhoneInteractable);
     }
-
     // Start is called before the first frame update
     public void MakePhoneInteractable()
     {
