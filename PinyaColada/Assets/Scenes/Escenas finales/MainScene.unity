@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731704, g: 0.13414729, b: 0.121078685, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &4
 LightmapSettings:
@@ -723,6 +723,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1519428076}
     - target: {fileID: 5803060187531350085, guid: f1cadf5d4f802664ab7cf136a6909cec, type: 3}
+      propertyPath: objText
+      value: 'Tengo que hacer el TFG
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803060187531350085, guid: f1cadf5d4f802664ab7cf136a6909cec, type: 3}
       propertyPath: txtLifetime
       value: 2
       objectReference: {fileID: 0}
@@ -980,6 +986,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1519428076}
     - target: {fileID: 5803060187531350085, guid: f1cadf5d4f802664ab7cf136a6909cec, type: 3}
+      propertyPath: objText
+      value: " esta foto es del orgullo de este a\xF1o, fue la primera vez que pude
+        ir Con mi bandera. Mi amigue Alex me acompa\xF1o en todo momento y me hizo
+        sentir como en casa. Pude conocer a muchas personas a las que les tengo mucho
+        aprecio en la actualidad"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803060187531350085, guid: f1cadf5d4f802664ab7cf136a6909cec, type: 3}
       propertyPath: txtLifetime
       value: 2
       objectReference: {fileID: 0}
@@ -1132,6 +1145,11 @@ PrefabInstance:
       propertyPath: bGPanel
       value: 
       objectReference: {fileID: 1519428076}
+    - target: {fileID: 5803060187531350085, guid: f1cadf5d4f802664ab7cf136a6909cec, type: 3}
+      propertyPath: objText
+      value: "Un dibujo de cuando era peque\xF1a, son mis aldeanos favoritos de Animales
+        Cruzando.\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 5803060187531350085, guid: f1cadf5d4f802664ab7cf136a6909cec, type: 3}
       propertyPath: txtLifetime
       value: 2
@@ -1364,6 +1382,11 @@ PrefabInstance:
       propertyPath: bGPanel
       value: 
       objectReference: {fileID: 1519428076}
+    - target: {fileID: 5803060187531350085, guid: f1cadf5d4f802664ab7cf136a6909cec, type: 3}
+      propertyPath: objText
+      value: "Mi abuelo me lo compro cuando tenia 10 a\xF1os, se entusiasmo mucho
+        al verme tocar el bajo de mi primo mayor.\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 5803060187531350085, guid: f1cadf5d4f802664ab7cf136a6909cec, type: 3}
       propertyPath: txtLifetime
       value: 2
@@ -1685,7 +1708,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7866114341942017905, guid: 24af5a866fd6895469dfa6ae636fd344, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2470,7 +2493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 1}
+  m_Color: {r: 0.0754717, g: 0.0754717, b: 0.0754717, a: 0.19607843}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2965,6 +2988,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1519428076}
     - target: {fileID: 5803060187531350085, guid: f1cadf5d4f802664ab7cf136a6909cec, type: 3}
+      propertyPath: objText
+      value: "Nutria de la suerte: \xA1Ojal\xE1 me traiga fortuna creando videojuegos!\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5803060187531350085, guid: f1cadf5d4f802664ab7cf136a6909cec, type: 3}
       propertyPath: txtLifetime
       value: 2
       objectReference: {fileID: 0}
@@ -3321,6 +3348,11 @@ PrefabInstance:
       propertyPath: bGPanel
       value: 
       objectReference: {fileID: 1519428076}
+    - target: {fileID: 5803060187531350085, guid: f1cadf5d4f802664ab7cf136a6909cec, type: 3}
+      propertyPath: objText
+      value: "Pokachu: un peluche de la mascota de Peque\xF1os, mi madre me la compro
+        de peque\xF1a un d\xEDa que fuimos al centro comercial a hacer las tareas.\n"
+      objectReference: {fileID: 0}
     - target: {fileID: 5803060187531350085, guid: f1cadf5d4f802664ab7cf136a6909cec, type: 3}
       propertyPath: txtLifetime
       value: 2
