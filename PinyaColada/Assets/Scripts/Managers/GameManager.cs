@@ -12,8 +12,8 @@ public class GameManager : MonoBehaviour {
     public float MainScreenSafeTime = 1;
     public Mobile mobileSmall;
 
-    private void Start() {
-        GetComponent<ManagerRefs>().aM.Play(0);
+    public void PlayMusic() {
+        ManagerRefs.instance.aM.Play(0);
     }
 
     private void Update() {
