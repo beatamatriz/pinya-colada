@@ -1733,7 +1733,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
       propertyPath: time
-      value: 1800
+      value: 210
       objectReference: {fileID: 0}
     - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
       propertyPath: meteorite
