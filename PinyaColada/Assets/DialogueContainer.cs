@@ -4,17 +4,14 @@ using UnityEngine;
 using UnityEngine.UI;
 public class DialogueContainer : MonoBehaviour
 {
-    public Sprite backPlayer, backNPC;
-    public Image backImage;
-    public void PickBack(bool isPlayer)
-    {
-        if (isPlayer)
-        {
-            backImage.sprite = backPlayer;
-        }
-        else
-        {
-            backImage.sprite = backNPC;
+    public GameObject backPlayer, backNPC;
+    public void PickBack(bool isPlayer) {
+        if (isPlayer) {
+            backPlayer.SetActive(true);
+            backNPC.SetActive(false);
+        } else {
+            backPlayer.SetActive(false);
+            backNPC.SetActive(true);
         }
     }
 }
