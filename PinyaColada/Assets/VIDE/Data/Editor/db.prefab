@@ -62,8 +62,8 @@ MonoBehaviour:
     - text: "Hola mam\xE1, soy yo."
       extraData: ExtraData
       inputSetIndex: 0
-      outputNodeIndex: 1
-      outActionIndex: -1
+      outputNodeIndex: -1
+      outActionIndex: 2
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -92,8 +92,8 @@ MonoBehaviour:
     - text: "\xA1Cari\xF1o! \xBFC\xF3mo est\xE1s?"
       extraData: ExtraData
       inputSetIndex: 1
-      outputNodeIndex: 98
-      outActionIndex: -1
+      outputNodeIndex: -1
+      outActionIndex: 0
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -301,7 +301,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 3
     s_comment:
-    - text: Nada nuevo
+    - text: 1. Nada nuevo
       extraData: ExtraData
       inputSetIndex: 8
       outputNodeIndex: 9
@@ -316,7 +316,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Me siento sola
+    - text: 2. Me siento sola
       extraData: ExtraData
       inputSetIndex: 8
       outputNodeIndex: 10
@@ -331,7 +331,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: "\xA1Es el fin del mundo!"
+    - text: "3. \xA1Es el fin del mundo!"
       extraData: ExtraData
       inputSetIndex: 8
       outputNodeIndex: 11
@@ -424,8 +424,8 @@ MonoBehaviour:
     - text: "Ma- mam\xE1... Un meteorito est\xE1 a punto de impactar en la Tierra."
       extraData: ExtraData
       inputSetIndex: 11
-      outputNodeIndex: 5
-      outActionIndex: -1
+      outputNodeIndex: -1
+      outActionIndex: 7
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -451,8 +451,8 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: "Te entiendo, sol... Los \xFAltimos a\xF1os de universidad son los a\xF1os
-        academicos m\xE1s complicados."
+    - text: "Te entiendo, sol... Los \xFAltimos a\xF1os de universidad son los m\xE1s
+        duros y encima est\xE1s muy lejos de casa."
       extraData: ExtraData
       inputSetIndex: 12
       outputNodeIndex: 16
@@ -482,7 +482,7 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 3
     s_comment:
-    - text: Darte las gracias
+    - text: 1. Gracias
       extraData: ExtraData
       inputSetIndex: 13
       outputNodeIndex: 37
@@ -497,7 +497,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: La paga del mes
+    - text: 2. La paga
       extraData: ExtraData
       inputSetIndex: 13
       outputNodeIndex: 106
@@ -512,7 +512,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: "\xBFLos gatos?"
+    - text: 3. Gatos
       extraData: ExtraData
       inputSetIndex: 13
       outputNodeIndex: 35
@@ -603,8 +603,8 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: "\xBFEstas comiendo bien? Recuerda que tienes que desayunar todos los
-        dias que es la comida m\xE1s importante del d\xEDa."
+    - text: "\xBFEstas comiendo bien? No te despreocupes, sobre todo con el desayuno,
+        que es la comida m\xE1s importante de d\xEDa."
       extraData: ExtraData
       inputSetIndex: 16
       outputNodeIndex: 22
@@ -622,8 +622,8 @@ MonoBehaviour:
     ID: 14
     rect:
       serializedVersion: 2
-      x: 3820
-      y: -680
+      x: 3780
+      y: -670
       width: 348
       height: 169
     pTag: 
@@ -667,8 +667,8 @@ MonoBehaviour:
     - text: En las noticias no han dicho nada de eso.
       extraData: ExtraData
       inputSetIndex: 18
-      outputNodeIndex: 102
-      outActionIndex: -1
+      outputNodeIndex: -1
+      outActionIndex: 6
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -682,8 +682,8 @@ MonoBehaviour:
     ID: 16
     rect:
       serializedVersion: 2
-      x: 3780
-      y: -180
+      x: 3740
+      y: -200
       width: 348
       height: 139
     pTag: 
@@ -712,8 +712,8 @@ MonoBehaviour:
     ID: 17
     rect:
       serializedVersion: 2
-      x: 4600
-      y: 60
+      x: 4740
+      y: -120
       width: 348
       height: 139
     pTag: 
@@ -724,7 +724,7 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 3
     s_comment:
-    - text: Darte las gracias
+    - text: 1. Gracias
       extraData: ExtraData
       inputSetIndex: 20
       outputNodeIndex: 23
@@ -739,7 +739,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: La paga del mes
+    - text: 2. La paga
       extraData: ExtraData
       inputSetIndex: 20
       outputNodeIndex: 104
@@ -754,7 +754,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: "\xBFLos gatos?"
+    - text: 3. Gatos
       extraData: ExtraData
       inputSetIndex: 20
       outputNodeIndex: 24
@@ -784,7 +784,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 3
     s_comment:
-    - text: Darte las gracias
+    - text: 1. Gracias
       extraData: ExtraData
       inputSetIndex: 21
       outputNodeIndex: 36
@@ -799,7 +799,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: La paga del mes
+    - text: 2. La paga
       extraData: ExtraData
       inputSetIndex: 21
       outputNodeIndex: 34
@@ -814,7 +814,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: "\xBFLos gatos?"
+    - text: 3. Gatos
       extraData: ExtraData
       inputSetIndex: 21
       outputNodeIndex: 33
@@ -844,7 +844,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: "Bueno, que me lio a hablar y no paro, \xBFNecesitabas alguna cosilla?"
+    - text: "Bueno, que me l\xEDo a hablar y no paro, \xBFnecesitabas alguna cosilla?"
       extraData: ExtraData
       inputSetIndex: 22
       outputNodeIndex: 21
@@ -862,7 +862,7 @@ MonoBehaviour:
     ID: 20
     rect:
       serializedVersion: 2
-      x: 4250
+      x: 4200
       y: -670
       width: 348
       height: 139
@@ -1117,7 +1117,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 2
     s_comment:
-    - text: "Adi\xF3s."
+    - text: "1. Adi\xF3s"
       extraData: ExtraData
       inputSetIndex: 31
       outputNodeIndex: -1
@@ -1132,7 +1132,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Salir del armario.
+    - text: 2. Salir del armario
       extraData: ExtraData
       inputSetIndex: 31
       outputNodeIndex: 118
@@ -1162,7 +1162,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: "Adi\xF3s."
+    - text: "1. Adi\xF3s"
       extraData: ExtraData
       inputSetIndex: 32
       outputNodeIndex: -1
@@ -1241,8 +1241,8 @@ MonoBehaviour:
     ID: 45
     rect:
       serializedVersion: 2
-      x: 5100
-      y: -680
+      x: 5060
+      y: -650
       width: 348
       height: 139
     pTag: 
@@ -1283,7 +1283,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: "Mam\xE1... me gustar\xEDa agradecerte todo lo que haces por m\xED."
+    - text: "Mam\xE1... me gustar\xEDa agradecer todo lo que haces por m\xED."
       extraData: ExtraData
       inputSetIndex: 36
       outputNodeIndex: 92
@@ -1960,10 +1960,10 @@ MonoBehaviour:
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2043,7 +2043,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: "Te quiero mucho mam\xE1, me encanta hablar contigo."
+    - text: "Te quiero mucho mam\xE1, siempre se siente muy bien hablar contigo."
       extraData: ExtraData
       inputSetIndex: 60
       outputNodeIndex: 87
@@ -2061,8 +2061,8 @@ MonoBehaviour:
     ID: 76
     rect:
       serializedVersion: 2
-      x: 8930
-      y: -770
+      x: 8790
+      y: -760
       width: 348
       height: 139
     pTag: 
@@ -2103,7 +2103,7 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 3
     s_comment:
-    - text: Te quiero.
+    - text: 1. Te quiero
       extraData: ExtraData
       inputSetIndex: 62
       outputNodeIndex: -1
@@ -2118,7 +2118,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Quiero volver a casa.
+    - text: 2. Quiero volver a casa
       extraData: ExtraData
       inputSetIndex: 62
       outputNodeIndex: 66
@@ -2133,7 +2133,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: "\xBFA qui\xE9n llamar\xEDas?"
+    - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 62
       outputNodeIndex: 64
@@ -2163,7 +2163,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 3
     s_comment:
-    - text: Te quiero.
+    - text: 1. Te quiero
       extraData: ExtraData
       inputSetIndex: 63
       outputNodeIndex: 60
@@ -2178,7 +2178,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Quiero volver a casa.
+    - text: 2. Quiero volver a casa
       extraData: ExtraData
       inputSetIndex: 63
       outputNodeIndex: -1
@@ -2193,7 +2193,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: "\xBFA qui\xE9n llamar\xEDas?"
+    - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 63
       outputNodeIndex: 64
@@ -2223,7 +2223,8 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: "Oye mam\xE1. S"
+    - text: "Oye mam\xE1. Si fuese el fin del mundo en 10 minutos, \xBFa qui\xE9n
+        llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 64
       outputNodeIndex: 86
@@ -2234,7 +2235,7 @@ MonoBehaviour:
         x: 301
         y: 63
         width: 30
-        height: 23
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2244,7 +2245,7 @@ MonoBehaviour:
       x: 9060
       y: 220
       width: 348
-      height: 129
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2301,8 +2302,8 @@ MonoBehaviour:
     ID: 80
     rect:
       serializedVersion: 2
-      x: 8830
-      y: -50
+      x: 9090
+      y: -60
       width: 348
       height: 129
     pTag: 
@@ -2313,7 +2314,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 3
     s_comment:
-    - text: Te quiero.
+    - text: 1. Te quiero
       extraData: ExtraData
       inputSetIndex: 67
       outputNodeIndex: 88
@@ -2328,7 +2329,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Quiero volver a casa.
+    - text: 2. Quiero volver a casa
       extraData: ExtraData
       inputSetIndex: 67
       outputNodeIndex: -1
@@ -2343,7 +2344,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: "\xBFA qui\xE9n llamar\xEDas?"
+    - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 67
       outputNodeIndex: -1
@@ -2403,22 +2404,7 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 3
     s_comment:
-    - text: Te quiero.
-      extraData: ExtraData
-      inputSetIndex: 69
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Quiero volver a casa.
+    - text: 1. Te quiero
       extraData: ExtraData
       inputSetIndex: 69
       outputNodeIndex: -1
@@ -2433,7 +2419,22 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: "\xBFA qui\xE9n llamar\xEDas?"
+    - text: 2. Quiero volver a casa
+      extraData: ExtraData
+      inputSetIndex: 69
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 69
       outputNodeIndex: -1
@@ -2493,7 +2494,7 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 3
     s_comment:
-    - text: Te quiero.
+    - text: 1. Te quiero
       extraData: ExtraData
       inputSetIndex: 71
       outputNodeIndex: -1
@@ -2508,7 +2509,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Quiero volver a casa.
+    - text: 2. Quiero volver a casa
       extraData: ExtraData
       inputSetIndex: 71
       outputNodeIndex: -1
@@ -2523,7 +2524,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: "\xBFA qui\xE9n llamar\xEDas?"
+    - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 71
       outputNodeIndex: -1
@@ -2553,7 +2554,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 3
     s_comment:
-    - text: Te quiero.
+    - text: 1. Te quiero
       extraData: ExtraData
       inputSetIndex: 72
       outputNodeIndex: 60
@@ -2568,7 +2569,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Quiero volver a casa.
+    - text: 2. Quiero volver a casa
       extraData: ExtraData
       inputSetIndex: 72
       outputNodeIndex: -1
@@ -2576,14 +2577,14 @@ MonoBehaviour:
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 300
-        y: 87
-        width: 30
-        height: 23
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: "\xBFA qui\xE9n llamar\xEDas?"
+    - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 72
       outputNodeIndex: -1
@@ -2613,8 +2614,8 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 3
     s_comment:
-    - text: Te quiero.
-      extraData: ExtraData
+    - text: 1. Te quiero
+      extraData: 1
       inputSetIndex: 73
       outputNodeIndex: 60
       outActionIndex: -1
@@ -2628,7 +2629,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Quiero volver a casa.
+    - text: 2. Quiero volver a casa
       extraData: ExtraData
       inputSetIndex: 73
       outputNodeIndex: -1
@@ -2643,7 +2644,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: "\xBFA qui\xE9n llamar\xEDas?"
+    - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 73
       outputNodeIndex: -1
@@ -2661,8 +2662,8 @@ MonoBehaviour:
     ID: 86
     rect:
       serializedVersion: 2
-      x: 8250
-      y: -1480
+      x: 8300
+      y: -1620
       width: 348
       height: 177
     pTag: 
@@ -2703,7 +2704,7 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 3
     s_comment:
-    - text: Te quiero
+    - text: 1. Te quiero
       extraData: ExtraData
       inputSetIndex: 75
       outputNodeIndex: 76
@@ -2718,7 +2719,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Quiero volver a casa
+    - text: 2. Quiero volver a casa
       extraData: ExtraData
       inputSetIndex: 75
       outputNodeIndex: 77
@@ -2733,7 +2734,7 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: "\xBFA qui\xE9n llamar\xEDas?"
+    - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 75
       outputNodeIndex: 78
@@ -2766,23 +2767,23 @@ MonoBehaviour:
     - text: "Te quiero mucho mam\xE1. Siempre que hablo contigo "
       extraData: ExtraData
       inputSetIndex: 76
-      outputNodeIndex: -1
+      outputNodeIndex: 79
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 301
+        y: 63
+        width: 30
+        height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 90
     rect:
       serializedVersion: 2
-      x: 9940
-      y: -2660
+      x: 9520
+      y: -2520
       width: 348
       height: 139
     pTag: 
@@ -2796,23 +2797,23 @@ MonoBehaviour:
     - text: Volver a casa
       extraData: ExtraData
       inputSetIndex: 77
-      outputNodeIndex: -1
+      outputNodeIndex: 80
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 301
+        y: 63
+        width: 30
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 91
     rect:
       serializedVersion: 2
-      x: 9850
-      y: -2140
+      x: 9540
+      y: -2310
       width: 348
       height: 129
     pTag: 
@@ -2826,23 +2827,23 @@ MonoBehaviour:
     - text: Llamada
       extraData: ExtraData
       inputSetIndex: 78
-      outputNodeIndex: -1
+      outputNodeIndex: 81
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 301
+        y: 63
+        width: 30
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 92
     rect:
       serializedVersion: 2
-      x: 9840
-      y: -1690
+      x: 9510
+      y: -2120
       width: 348
       height: 129
     pTag: 
@@ -2856,7 +2857,7 @@ MonoBehaviour:
     - text: Comment...
       extraData: ExtraData
       inputSetIndex: 79
-      outputNodeIndex: 31
+      outputNodeIndex: 149
       outActionIndex: -1
       showmore: 0
       outRect:
@@ -2871,8 +2872,8 @@ MonoBehaviour:
     ID: 93
     rect:
       serializedVersion: 2
-      x: 10720
-      y: -2650
+      x: 10160
+      y: -2640
       width: 348
       height: 129
     pTag: 
@@ -3003,7 +3004,7 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: Comment...
+    - text: 'Muchas gracias a ti, '
       extraData: ExtraData
       inputSetIndex: 84
       outputNodeIndex: 85
@@ -3021,8 +3022,8 @@ MonoBehaviour:
     ID: 98
     rect:
       serializedVersion: 2
-      x: 9550
-      y: -690
+      x: 9730
+      y: -740
       width: 348
       height: 129
     pTag: 
@@ -3051,8 +3052,8 @@ MonoBehaviour:
     ID: 99
     rect:
       serializedVersion: 2
-      x: 10040
-      y: -680
+      x: 10170
+      y: -740
       width: 348
       height: 139
     pTag: 
@@ -3081,7 +3082,7 @@ MonoBehaviour:
     ID: 100
     rect:
       serializedVersion: 2
-      x: 9730
+      x: 9640
       y: 220
       width: 348
       height: 139
@@ -3111,8 +3112,8 @@ MonoBehaviour:
     ID: 102
     rect:
       serializedVersion: 2
-      x: 9290
-      y: -860
+      x: 9250
+      y: -750
       width: 348
       height: 139
     pTag: 
@@ -3518,7 +3519,7 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: ' No poder quedar con mis amigos esta haciendo que me cueste desconectar'
+    - text: "El aislamiento est\xE1 dren\xE1ndome todas las energ\xEDas."
       extraData: ExtraData
       inputSetIndex: 101
       outputNodeIndex: 12
@@ -3529,7 +3530,7 @@ MonoBehaviour:
         x: 301
         y: 63
         width: 30
-        height: 48
+        height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -3539,7 +3540,7 @@ MonoBehaviour:
       x: 2980
       y: -640
       width: 348
-      height: 154
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3567,7 +3568,7 @@ MonoBehaviour:
     ID: 25
     rect:
       serializedVersion: 2
-      x: 4180
+      x: 4190
       y: -80
       width: 348
       height: 154
@@ -3628,8 +3629,8 @@ MonoBehaviour:
     ID: 21
     rect:
       serializedVersion: 2
-      x: 5380
-      y: -1200
+      x: 5360
+      y: -1220
       width: 348
       height: 139
     pTag: 
@@ -3704,8 +3705,8 @@ MonoBehaviour:
     - text: "La casera va a pasarse ma\xF1ana a por el dinero del alquiler."
       extraData: ExtraData
       inputSetIndex: 107
-      outputNodeIndex: 53
-      outActionIndex: -1
+      outputNodeIndex: -1
+      outActionIndex: 9
       showmore: 0
       outRect:
         serializedVersion: 2
@@ -4001,34 +4002,35 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: 
+    - text: "[r\xEDe] \xBFPor qu\xE9 no llamas a un peri\xF3dico a ver si te pagan
+        por la exclusiva?"
       extraData: ExtraData
       inputSetIndex: 117
-      outputNodeIndex: -1
+      outputNodeIndex: 148
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
+        x: 301
+        y: 63
+        width: 30
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 88
     rect:
       serializedVersion: 2
-      x: 10230
-      y: 220
+      x: 10130
+      y: 210
       width: 348
-      height: 129
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 1
+    isPlayer: 0
   - commentCount: 1
     s_comment:
     - text: "Mam\xE1, hay algo importante que llevo tiempo queriendo decirte."
@@ -4061,9 +4063,821 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: "Ha pasado mucho tiempo desde que estoy fuera de casa y\u2026.he cambiado."
+    - text: Seguramente ya te hagas una idea...
       extraData: ExtraData
       inputSetIndex: 119
+      outputNodeIndex: 120
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 119
+    rect:
+      serializedVersion: 2
+      x: 12470
+      y: -2010
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Mi vida ha cambiado mucho desde que me fui de casa.
+      extraData: ExtraData
+      inputSetIndex: 120
+      outputNodeIndex: 121
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 120
+    rect:
+      serializedVersion: 2
+      x: 12900
+      y: -2020
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Eso siempre ocurre, cuando vas a universidad descubres nuevos ambientes,
+        amigos, responsabilidades...
+      extraData: ExtraData
+      inputSetIndex: 121
+      outputNodeIndex: 122
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 63
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 121
+    rect:
+      serializedVersion: 2
+      x: 13360
+      y: -2040
+      width: 348
+      height: 169
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "S\xED..."
+      extraData: ExtraData
+      inputSetIndex: 122
+      outputNodeIndex: 123
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 122
+    rect:
+      serializedVersion: 2
+      x: 13860
+      y: -2030
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: ...
+      extraData: ExtraData
+      inputSetIndex: 123
+      outputNodeIndex: 124
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 123
+    rect:
+      serializedVersion: 2
+      x: 14280
+      y: -2040
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "Mam\xE1. Muchas gracias por haberme criado como lo has hecho."
+      extraData: ExtraData
+      inputSetIndex: 124
+      outputNodeIndex: 125
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 48
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 124
+    rect:
+      serializedVersion: 2
+      x: 14700
+      y: -1840
+      width: 348
+      height: 154
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "He conocido personas que no tienen madres lo mitad de buenas de lo que
+        eres t\xFA."
+      extraData: ExtraData
+      inputSetIndex: 125
+      outputNodeIndex: 126
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 48
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 125
+    rect:
+      serializedVersion: 2
+      x: 15100
+      y: -1840
+      width: 348
+      height: 154
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Algunos no tienen un hogar o una familia que les acoja.
+      extraData: ExtraData
+      inputSetIndex: 126
+      outputNodeIndex: 127
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 126
+    rect:
+      serializedVersion: 2
+      x: 15500
+      y: -1830
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "\xA1Eso son chusma! Una familia est\xE1 para amar y recibir a todos."
+      extraData: ExtraData
+      inputSetIndex: 127
+      outputNodeIndex: 128
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 127
+    rect:
+      serializedVersion: 2
+      x: 15060
+      y: -1560
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Lo s\xE9. Contigo me siento segura."
+      extraData: ExtraData
+      inputSetIndex: 128
+      outputNodeIndex: 129
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 128
+    rect:
+      serializedVersion: 2
+      x: 14470
+      y: -1330
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "C\xF3moda."
+      extraData: ExtraData
+      inputSetIndex: 129
+      outputNodeIndex: 130
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 129
+    rect:
+      serializedVersion: 2
+      x: 14900
+      y: -1330
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Protegida.
+      extraData: ExtraData
+      inputSetIndex: 130
+      outputNodeIndex: 131
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 130
+    rect:
+      serializedVersion: 2
+      x: 14480
+      y: -1140
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "Mam\xE1. Quiero que sepas que soy una mujer."
+      extraData: ExtraData
+      inputSetIndex: 131
+      outputNodeIndex: 132
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 131
+    rect:
+      serializedVersion: 2
+      x: 14900
+      y: -1150
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: ...
+      extraData: ExtraData
+      inputSetIndex: 132
+      outputNodeIndex: 133
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 132
+    rect:
+      serializedVersion: 2
+      x: 14280
+      y: -920
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: ...
+      extraData: ExtraData
+      inputSetIndex: 133
+      outputNodeIndex: 134
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 133
+    rect:
+      serializedVersion: 2
+      x: 14750
+      y: -920
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: '[solloza]'
+      extraData: ExtraData
+      inputSetIndex: 134
+      outputNodeIndex: 135
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 134
+    rect:
+      serializedVersion: 2
+      x: 15160
+      y: -910
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "[r\xEDe] \xBFSabes? Siempre quise tener una hija."
+      extraData: ExtraData
+      inputSetIndex: 135
+      outputNodeIndex: 136
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 135
+    rect:
+      serializedVersion: 2
+      x: 14520
+      y: -700
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Cuando estaba embarazada de ti, pens\xE9 muchos nombres de ni\xF1a..."
+      extraData: ExtraData
+      inputSetIndex: 136
+      outputNodeIndex: 137
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 136
+    rect:
+      serializedVersion: 2
+      x: 14930
+      y: -700
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Perseida.
+      extraData: ExtraData
+      inputSetIndex: 137
+      outputNodeIndex: 138
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 137
+    rect:
+      serializedVersion: 2
+      x: 14570
+      y: -450
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "El nombre me lleg\xF3 a m\xED como una estrella fugaz."
+      extraData: ExtraData
+      inputSetIndex: 138
+      outputNodeIndex: 139
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 138
+    rect:
+      serializedVersion: 2
+      x: 15010
+      y: -420
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Es un nombre precioso...
+      extraData: ExtraData
+      inputSetIndex: 139
+      outputNodeIndex: 144
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 139
+    rect:
+      serializedVersion: 2
+      x: 14610
+      y: 70
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Eres lo que m\xE1s quiero recu\xE9rdalo siempre."
+      extraData: ExtraData
+      inputSetIndex: 140
+      outputNodeIndex: 142
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 140
+    rect:
+      serializedVersion: 2
+      x: 14800
+      y: 510
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "[solloza] Muchas gracias mam\xE1, gracias por quererme tanto."
+      extraData: ExtraData
+      inputSetIndex: 141
+      outputNodeIndex: 140
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 141
+    rect:
+      serializedVersion: 2
+      x: 14790
+      y: 280
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "Te amo y amar\xE9 con toda mi alma."
+      extraData: ExtraData
+      inputSetIndex: 142
+      outputNodeIndex: 146
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 142
+    rect:
+      serializedVersion: 2
+      x: 14790
+      y: 750
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: /Chusma???/
+      extraData: ExtraData
+      inputSetIndex: 143
+      outputNodeIndex: 127
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 143
+    rect:
+      serializedVersion: 2
+      x: 14450
+      y: -1560
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Gracias por confiar en mi y decirme quien eres.\r"
+      extraData: ExtraData
+      inputSetIndex: 144
+      outputNodeIndex: 141
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 144
+    rect:
+      serializedVersion: 2
+      x: 15020
+      y: 60
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "/algo m\xE1s?/"
+      extraData: ExtraData
+      inputSetIndex: 145
+      outputNodeIndex: 138
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 145
+    rect:
+      serializedVersion: 2
+      x: 14340
+      y: -240
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Hasta el fin de los tiempos.
+      extraData: ExtraData
+      inputSetIndex: 146
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -4076,18 +4890,630 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 119
+    ID: 146
     rect:
       serializedVersion: 2
-      x: 12470
-      y: -2010
+      x: 14780
+      y: 970
       width: 348
-      height: 154
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 1
-  S_actionNodes: []
+  - commentCount: 1
+    s_comment:
+    - text: /TODO/
+      extraData: ExtraData
+      inputSetIndex: 147
+      outputNodeIndex: 84
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 147
+    rect:
+      serializedVersion: 2
+      x: 9700
+      y: -430
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: ...
+      extraData: ExtraData
+      inputSetIndex: 148
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 148
+    rect:
+      serializedVersion: 2
+      x: 10600
+      y: 220
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: Comment...
+      extraData: ExtraData
+      inputSetIndex: 149
+      outputNodeIndex: 150
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 160
+    rect:
+      serializedVersion: 2
+      x: 10560
+      y: -2640
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Comment...
+      extraData: ExtraData
+      inputSetIndex: 150
+      outputNodeIndex: 151
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 161
+    rect:
+      serializedVersion: 2
+      x: 10780
+      y: -2450
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: Comment...
+      extraData: ExtraData
+      inputSetIndex: 151
+      outputNodeIndex: 31
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 23
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 162
+    rect:
+      serializedVersion: 2
+      x: 11110
+      y: -2200
+      width: 348
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  S_actionNodes:
+  - pauseHere: 0
+    gameObjectName: DialogueJ
+    methodName: GetNormal
+    nameIndex: 3
+    methodIndex: 1
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetNormal
+    - GetAngry
+    - GetHappy
+    - GetSad
+    - GetExtremelyHappy
+    nameOpts:
+    - '[No object]'
+    - ObjectDibujo (1)
+    - ObjectDibujo
+    - DialogueJ
+    - TFG
+    - Managers
+    - UIMANAGER
+    - Nutria
+    - MobileSmall
+    - ObjectGuitarra
+    - Pichachu
+    - MobileUp
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: -360
+      y: -410
+      width: 200
+      height: 170
+    ID: 149
+    outPlayerIndex: 98
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: DialogueJ
+    methodName: GetAngry
+    nameIndex: 3
+    methodIndex: 2
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetNormal
+    - GetAngry
+    - GetHappy
+    - GetSad
+    - GetExtremelyHappy
+    nameOpts:
+    - '[No object]'
+    - ObjectDibujo (1)
+    - ObjectDibujo
+    - DialogueJ
+    - TFG
+    - Managers
+    - UIMANAGER
+    - Nutria
+    - MobileSmall
+    - ObjectGuitarra
+    - Pichachu
+    - MobileUp
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 2460
+      y: 230
+      width: 200
+      height: 170
+    ID: 150
+    outPlayerIndex: -1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: DialogueJ
+    methodName: GetHappy
+    nameIndex: 3
+    methodIndex: 3
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetNormal
+    - GetAngry
+    - GetHappy
+    - GetSad
+    - GetExtremelyHappy
+    nameOpts:
+    - '[No object]'
+    - ObjectDibujo (1)
+    - ObjectDibujo
+    - DialogueJ
+    - TFG
+    - Managers
+    - UIMANAGER
+    - Nutria
+    - MobileSmall
+    - ObjectGuitarra
+    - Pichachu
+    - MobileUp
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: -890
+      y: -420
+      width: 200
+      height: 170
+    ID: 151
+    outPlayerIndex: 1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: DialogueJ
+    methodName: GetSad
+    nameIndex: 3
+    methodIndex: 4
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetNormal
+    - GetAngry
+    - GetHappy
+    - GetSad
+    - GetExtremelyHappy
+    nameOpts:
+    - '[No object]'
+    - ObjectDibujo (1)
+    - ObjectDibujo
+    - DialogueJ
+    - TFG
+    - Managers
+    - UIMANAGER
+    - Nutria
+    - MobileSmall
+    - ObjectGuitarra
+    - Pichachu
+    - MobileUp
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 2840
+      y: 240
+      width: 200
+      height: 170
+    ID: 152
+    outPlayerIndex: -1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: DialogueJ
+    methodName: GetExtremelyHappy
+    nameIndex: 3
+    methodIndex: 5
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetNormal
+    - GetAngry
+    - GetHappy
+    - GetSad
+    - GetExtremelyHappy
+    nameOpts:
+    - '[No object]'
+    - ObjectDibujo (1)
+    - ObjectDibujo
+    - DialogueJ
+    - TFG
+    - Managers
+    - UIMANAGER
+    - Nutria
+    - MobileSmall
+    - ObjectGuitarra
+    - Pichachu
+    - MobileUp
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 2540
+      y: 390
+      width: 200
+      height: 170
+    ID: 154
+    outPlayerIndex: -1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: DialogueJ
+    methodName: GetHappy
+    nameIndex: 3
+    methodIndex: 3
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetNormal
+    - GetAngry
+    - GetHappy
+    - GetSad
+    - GetExtremelyHappy
+    nameOpts:
+    - '[No object]'
+    - ObjectDibujo (1)
+    - ObjectDibujo
+    - DialogueJ
+    - TFG
+    - Managers
+    - UIMANAGER
+    - Nutria
+    - MobileSmall
+    - ObjectGuitarra
+    - Pichachu
+    - MobileUp
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 2640
+      y: 200
+      width: 200
+      height: 170
+    ID: 153
+    outPlayerIndex: -1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: DialogueJ
+    methodName: GetNormal
+    nameIndex: 3
+    methodIndex: 1
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetNormal
+    - GetAngry
+    - GetHappy
+    - GetSad
+    - GetExtremelyHappy
+    nameOpts:
+    - '[No object]'
+    - ObjectDibujo (1)
+    - ObjectDibujo
+    - DialogueJ
+    - TFG
+    - Managers
+    - UIMANAGER
+    - Nutria
+    - MobileSmall
+    - ObjectGuitarra
+    - Pichachu
+    - MobileUp
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 3960
+      y: 10
+      width: 200
+      height: 170
+    ID: 155
+    outPlayerIndex: 102
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: DialogueJ
+    methodName: GetAngry
+    nameIndex: 3
+    methodIndex: 2
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetNormal
+    - GetAngry
+    - GetHappy
+    - GetSad
+    - GetExtremelyHappy
+    nameOpts:
+    - '[No object]'
+    - ObjectDibujo (1)
+    - ObjectDibujo
+    - DialogueJ
+    - TFG
+    - Managers
+    - UIMANAGER
+    - Nutria
+    - MobileSmall
+    - ObjectGuitarra
+    - Pichachu
+    - MobileUp
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 2760
+      y: -20
+      width: 200
+      height: 170
+    ID: 156
+    outPlayerIndex: 5
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: DialogueJ
+    methodName: GetNormal
+    nameIndex: 3
+    methodIndex: 1
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetNormal
+    - GetAngry
+    - GetHappy
+    - GetSad
+    - GetExtremelyHappy
+    nameOpts:
+    - '[No object]'
+    - ObjectDibujo (1)
+    - ObjectDibujo
+    - DialogueJ
+    - TFG
+    - Managers
+    - UIMANAGER
+    - Nutria
+    - MobileSmall
+    - ObjectGuitarra
+    - Pichachu
+    - MobileUp
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 2840
+      y: 380
+      width: 200
+      height: 170
+    ID: 157
+    outPlayerIndex: -1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: DialogueJ
+    methodName: GetAngry
+    nameIndex: 3
+    methodIndex: 2
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetNormal
+    - GetAngry
+    - GetHappy
+    - GetSad
+    - GetExtremelyHappy
+    nameOpts:
+    - '[No object]'
+    - ObjectDibujo (1)
+    - ObjectDibujo
+    - DialogueJ
+    - TFG
+    - Managers
+    - UIMANAGER
+    - Nutria
+    - MobileSmall
+    - ObjectGuitarra
+    - Pichachu
+    - MobileUp
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 6140
+      y: 290
+      width: 200
+      height: 170
+    ID: 158
+    outPlayerIndex: 53
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
+  - pauseHere: 0
+    gameObjectName: DialogueJ
+    methodName: GetNormal
+    nameIndex: 3
+    methodIndex: 1
+    paramIndex: 0
+    opts:
+    - '[No method]'
+    - GetNormal
+    - GetAngry
+    - GetHappy
+    - GetSad
+    - GetExtremelyHappy
+    nameOpts:
+    - '[No object]'
+    - ObjectDibujo (1)
+    - ObjectDibujo
+    - DialogueJ
+    - TFG
+    - Managers
+    - UIMANAGER
+    - Nutria
+    - MobileSmall
+    - ObjectGuitarra
+    - Pichachu
+    - MobileUp
+    param_bool: 0
+    param_string: 
+    param_int: 0
+    param_float: 0
+    rect:
+      serializedVersion: 2
+      x: 4370
+      y: 360
+      width: 200
+      height: 170
+    ID: 159
+    outPlayerIndex: -1
+    outActionIndex: -1
+    more: 0
+    ovrStartNode: -1
+    renameDialogue: 
   S_selNodes: []
