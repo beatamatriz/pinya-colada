@@ -5,10 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
-    path: Assets/Scenes/JorgeVide.unity
-    guid: 5655d96bdfa6a72e28ef406f151709a5
+  - enabled: 1
+    path: Assets/Scenes/Escenas finales/FirstLoadScene.unity
+    guid: fb6cfaacf4c09454b896603223a933f1
+  - enabled: 1
+    path: Assets/Scenes/Escenas finales/MainScene.unity
+    guid: 42212288272dcf341b7be35e9bd9665d
+  - enabled: 1
+    path: Assets/Scenes/Escenas finales/EndScene.unity
+    guid: 718f6af9d4400764e866a33565af986c
   m_configObjects: {}

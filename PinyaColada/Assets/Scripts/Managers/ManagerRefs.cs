@@ -8,6 +8,8 @@ public class ManagerRefs : MonoBehaviour {
     [HideInInspector] public EndingManager eM;
     [HideInInspector] public GameManager gM;
     [HideInInspector] public PlayerLog pL;
+    [HideInInspector] public AudioManager aM;
+
     private void Awake() {
         if (instance == null) {
             instance = this;
@@ -18,5 +20,6 @@ public class ManagerRefs : MonoBehaviour {
         cM = GetComponent<CountdownManager>();
         eM = GetComponent<EndingManager>();
         gM = GetComponent<GameManager>();
+        aM = GetComponent<AudioManager>();
     }
 }

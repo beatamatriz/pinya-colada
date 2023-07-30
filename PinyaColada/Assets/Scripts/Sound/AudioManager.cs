@@ -13,12 +13,7 @@ public class AudioManager : MonoBehaviour {
         }
     }
 
-    public void Play(string name) {
-        foreach (Sound s in sounds) {
-            if (s.name == name) {
-                s.source.Play();
-                // PlayerElections.ins.aM.Play("")
-            }
-        }
+    public void Play(int index) {
+        sounds[index].source.Play();
     }
 }

@@ -18,6 +18,10 @@ public class PlayerElections : MonoBehaviour {
             ins = this;
         }
 
+        if (SceneManager.GetActiveScene().buildIndex == 0) {
+            SceneManager.LoadScene(1);
+        }
+
         aM = GetComponent<AudioManager>();
     }
 
