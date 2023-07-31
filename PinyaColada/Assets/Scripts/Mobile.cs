@@ -30,7 +30,7 @@ public class Mobile : MonoBehaviour
     {
         print("Interacting with mobileUI");
         mobileUI.SetActive(true);
-        gameObject.SetActive(false);
         arrowContinue.SetActive(true);
+        gameObject.SetActive(false);
     }
 }

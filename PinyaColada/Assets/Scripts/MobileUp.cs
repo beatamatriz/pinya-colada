@@ -52,7 +52,6 @@ public class MobileUp : MonoBehaviour
             mobile.arrowContinue.SetActive(false);
             dialogueContainer.backNPC.SetActive(false);
             dialogueContainer.backPlayer.SetActive(false);
-
             gameObject.SetActive(false);
         }
         canEndialog = true;

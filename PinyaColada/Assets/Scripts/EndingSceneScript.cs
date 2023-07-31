@@ -41,7 +41,7 @@ public class EndingSceneScript : MonoBehaviour
     }
     public void Retry()
     {
-        SceneManager.LoadScene(1);
+        // SceneManager.LoadScene(1);
     }
     public void ExitGame()
     {
