@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameManager : MonoBehaviour {
+public class GameManager : MonoBehaviour
+{
     public Text objTextbox;
     public GameObject safePanel;
 
@@ -12,17 +13,22 @@ public class GameManager : MonoBehaviour {
     public float MainScreenSafeTime = 1;
     public Mobile mobileSmall;
 
-    public void PlayMusic() {
+    public void PlayMusic()
+    {
         ManagerRefs.instance.aM.Play(0);
     }
 
-    private void Update() {
-        if (mainScreen.activeInHierarchy) {
-            if (startGameCounter > 0) {
+    private void Update()
+    {
+        if (mainScreen.activeInHierarchy)
+        {
+            if (startGameCounter > 0)
+            {
                 startGameCounter -= Time.deltaTime;
             }
 
-            if (Input.GetMouseButtonDown(0) && startGameCounter <= 0) {
+            if (Input.GetMouseButtonDown(0) && startGameCounter <= 0)
+            {
                 mainScreen.GetComponent<Animator>().SetTrigger("Start");
                 ManagerRefs.instance.cM.isGameStarted = true;
                 mobileSmall.PhoneSetup();
@@ -31,13 +37,15 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    IEnumerator MainScreenSafe() {
+    IEnumerator MainScreenSafe()
+    {
         yield return new WaitForSeconds(MainScreenSafeTime);
 
         mainScreen.SetActive(false);
     }
 
-    public void CallWin() {
-        PlayerElections.ins.goodEnding = true;
+    public void CallWin()
+    {
+        PlayerElections.instance.goodEnding = true;
     }
 }

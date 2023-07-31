@@ -1894,7 +1894,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3216,7 +3216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6905323880026165237, guid: c18b055506140cb4181a6aec2872306f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
       propertyPath: sounds.Array.data[0].loop
@@ -3237,6 +3237,10 @@ PrefabInstance:
     - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
       propertyPath: sounds.Array.data[3].pitch
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9054011287563685885, guid: c18b055506140cb4181a6aec2872306f, type: 3}
+      propertyPath: goodEnding
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4017,6 +4021,10 @@ PrefabInstance:
       propertyPath: backPlayer
       value: 
       objectReference: {fileID: 1233849707}
+    - target: {fileID: 7091546270296417304, guid: 2f54bc546940d7850af42667b4b11979, type: 3}
+      propertyPath: buttonAdvanceDialogue
+      value: 
+      objectReference: {fileID: 937684287}
     - target: {fileID: 7320249606566172180, guid: 2f54bc546940d7850af42667b4b11979, type: 3}
       propertyPath: m_SizeDelta.x
       value: 437.7409
