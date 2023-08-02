@@ -48,9 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cM: {fileID: 0}
-  eM: {fileID: 0}
   gM: {fileID: 0}
-  pL: {fileID: 0}
   aM: {fileID: 0}
 --- !u!114 &409263343308378134
 MonoBehaviour:
@@ -64,14 +62,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a4a532508ace60045a4dd9abeb58cc9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 16
+  time: 300
   timeSpeed: 1
   timeFastSpeed: 1
   isGameStarted: 0
   meteorite: {fileID: 0}
   meteoriteObjective: {fileID: 0}
   colorChangeObjects: []
-  orangeRoomLifetimeSpeed: 0
+  orangeRoomLifetimeSpeed: 0.38
 --- !u!114 &3772988707263754690
 MonoBehaviour:
   m_ObjectHideFlags: 0

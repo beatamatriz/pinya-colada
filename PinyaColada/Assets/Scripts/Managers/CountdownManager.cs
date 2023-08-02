@@ -21,11 +21,11 @@ public class CountdownManager : MonoBehaviour {
     void Update() {
         if (isGameStarted) {
             if (timeSpeed < 0) {
-                Debug.LogWarning("¡La velocidad del tiempo es negativa!");
+                Debug.LogWarning("Â¡La velocidad del tiempo es negativa!");
             }
 
             if (time <= 0) {
-                UnityEngine.SceneManagement.SceneManager.LoadScene(2);
+                UnityEngine.SceneManagement.SceneManager.LoadScene(1);
             }
 
             time -= Time.deltaTime * timeSpeed;
