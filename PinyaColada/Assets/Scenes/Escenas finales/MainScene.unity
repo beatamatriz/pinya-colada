@@ -4212,11 +4212,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
       propertyPath: S_actionNodes.Array.size
-      value: 17
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
       propertyPath: S_playerDiags.Array.size
-      value: 177
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
       propertyPath: S_playerDiags.Array.data[5].ID
