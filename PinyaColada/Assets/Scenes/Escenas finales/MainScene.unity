@@ -4191,122 +4191,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1232480049}
     - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: preload
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
       propertyPath: assignedID
       value: 49956
       objectReference: {fileID: 0}
     - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: notuptodate
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
       propertyPath: assignedIndex
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
       propertyPath: assignedDialogue
       value: Mom_Clean
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_actionNodes.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[5].ID
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[6].ID
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[0].isPlayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[2].isPlayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[4].isPlayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[1].commentCount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[1].s_comment.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[0].s_comment.Array.data[0].text
-      value: "Hola mam\xE1, soy yo."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[1].s_comment.Array.data[0].text
-      value: "\xA1Cari\xF1o! \xBFC\xF3mo est\xE1s?"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[2].s_comment.Array.data[0].text
-      value: "Mam\xE1... Me hablas casi todos los d\xEDas..."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[3].s_comment.Array.data[0].text
-      value: "Si ya lo s\xE9, mi ni\xF1o pero tan solo me escribes, nunca puedo escuchar
-        lo bonita que es tu voz."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[4].s_comment.Array.data[0].text
-      value: "Bueno\u2026"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[5].s_comment.Array.data[0].text
-      value: "\xBFPero qu\xE9 est\xE1s diciendo? No digas tonter\xEDas, si eso fuera
-        a pasar ya nos habr\xEDan avisado."
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[6].s_comment.Array.data[0].text
-      value: Me imagino... tienes que estar muy liado.
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[0].s_comment.Array.data[0].outActionIndex
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[0].s_comment.Array.data[0].outputNodeIndex
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[1].s_comment.Array.data[0].outputNodeIndex
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[2].s_comment.Array.data[0].outputNodeIndex
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[3].s_comment.Array.data[0].outputNodeIndex
-      value: 98
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[4].s_comment.Array.data[0].outputNodeIndex
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[5].s_comment.Array.data[0].outputNodeIndex
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6106699417146023904, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
-      propertyPath: S_playerDiags.Array.data[6].s_comment.Array.data[0].outputNodeIndex
-      value: 147
       objectReference: {fileID: 0}
     - target: {fileID: 7885956093617653230, guid: 3529d917a8abbf641bf2fbeef29a539f, type: 3}
       propertyPath: m_Name

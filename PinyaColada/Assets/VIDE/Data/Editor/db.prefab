@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146666}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &11416270
 MonoBehaviour:
@@ -44,15 +44,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268dc70b105993846a123be43345df63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fileIndex: 10
+  fileIndex: 1
   skinIndex: 3
   loadTag: 
   startID: 0
-  curFocusID: 0
+  curFocusID: 118
   currentID: 909
   autosave: 1
   previewPanning: 0
-  currentDiag: 10
+  currentDiag: 1
   locEdit: 0
   pNodeID: 18
   aNodeID: 2
@@ -68,9 +68,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -80,7 +80,7 @@ MonoBehaviour:
       x: -1250
       y: -590
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -98,9 +98,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -110,7 +110,7 @@ MonoBehaviour:
       x: -660
       y: -590
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -128,7 +128,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -140,7 +140,7 @@ MonoBehaviour:
       x: 290
       y: -560
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -159,9 +159,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -171,7 +171,7 @@ MonoBehaviour:
       x: 750
       y: -550
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -189,9 +189,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -201,7 +201,7 @@ MonoBehaviour:
       x: 1680
       y: -560
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -220,9 +220,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -232,7 +232,7 @@ MonoBehaviour:
       x: 2960
       y: -230
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -250,7 +250,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -262,7 +262,7 @@ MonoBehaviour:
       x: 2740
       y: -1110
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -280,7 +280,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -292,7 +292,7 @@ MonoBehaviour:
       x: 3350
       y: -220
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -310,9 +310,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -325,9 +325,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 87
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -340,9 +340,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 115
+        y: 111
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -352,7 +352,7 @@ MonoBehaviour:
       x: 2130
       y: -610
       width: 348
-      height: 183
+      height: 177
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -370,7 +370,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -382,7 +382,7 @@ MonoBehaviour:
       x: 2360
       y: -1110
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -400,7 +400,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -412,7 +412,7 @@ MonoBehaviour:
       x: 2530
       y: -640
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -430,7 +430,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -442,7 +442,7 @@ MonoBehaviour:
       x: 2440
       y: -240
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -461,9 +461,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -473,7 +473,7 @@ MonoBehaviour:
       x: 3370
       y: -650
       width: 348
-      height: 170.4
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -491,9 +491,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -506,9 +506,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 87
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -521,9 +521,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 115
+        y: 111
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -533,7 +533,7 @@ MonoBehaviour:
       x: 4970
       y: 50
       width: 348
-      height: 183
+      height: 177
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -551,9 +551,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -563,7 +563,7 @@ MonoBehaviour:
       x: 4560
       y: -1160
       width: 348
-      height: 156
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -581,9 +581,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -593,7 +593,7 @@ MonoBehaviour:
       x: 3810
       y: -1050
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -612,9 +612,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -624,7 +624,7 @@ MonoBehaviour:
       x: 3800
       y: -670
       width: 348
-      height: 170.4
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -643,9 +643,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -655,7 +655,7 @@ MonoBehaviour:
       x: 4190
       y: -1170
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -673,7 +673,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -685,7 +685,7 @@ MonoBehaviour:
       x: 3740
       y: -200
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -703,9 +703,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -715,7 +715,7 @@ MonoBehaviour:
       x: 4650
       y: -120
       width: 348
-      height: 156
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -733,9 +733,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -748,9 +748,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 87
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -763,9 +763,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 115
+        y: 111
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -775,7 +775,7 @@ MonoBehaviour:
       x: 4930
       y: -1180
       width: 348
-      height: 183
+      height: 177
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -793,9 +793,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -808,9 +808,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 87
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -823,9 +823,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 115
+        y: 111
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -835,7 +835,7 @@ MonoBehaviour:
       x: 4630
       y: -710
       width: 348
-      height: 183
+      height: 177
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -853,9 +853,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -865,7 +865,7 @@ MonoBehaviour:
       x: 4200
       y: -670
       width: 348
-      height: 156
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -883,7 +883,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -895,7 +895,7 @@ MonoBehaviour:
       x: 4940
       y: -1490
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -913,7 +913,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -925,7 +925,7 @@ MonoBehaviour:
       x: 5540
       y: -1060
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -944,9 +944,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -956,7 +956,7 @@ MonoBehaviour:
       x: 5770
       y: -1490
       width: 348
-      height: 170.4
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -975,9 +975,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -987,7 +987,7 @@ MonoBehaviour:
       x: 6530
       y: -1240
       width: 348
-      height: 170.4
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1005,9 +1005,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1017,7 +1017,7 @@ MonoBehaviour:
       x: 6960
       y: -1240
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1035,7 +1035,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -1047,7 +1047,7 @@ MonoBehaviour:
       x: 5930
       y: -1050
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1065,7 +1065,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -1077,7 +1077,7 @@ MonoBehaviour:
       x: 6360
       y: -1040
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1096,9 +1096,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1108,7 +1108,7 @@ MonoBehaviour:
       x: 7530
       y: -1030
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1126,13 +1126,13 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: 2. Salir del armario
+    - text: 2. [Sincerarse]
       extraData: ExtraData
       inputSetIndex: 31
       outputNodeIndex: 117
@@ -1141,9 +1141,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 87
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1153,7 +1153,7 @@ MonoBehaviour:
       x: 11760
       y: -2250
       width: 348
-      height: 158
+      height: 153
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1171,9 +1171,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1183,7 +1183,7 @@ MonoBehaviour:
       x: 10680
       y: -690
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1201,7 +1201,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -1213,7 +1213,7 @@ MonoBehaviour:
       x: 4940
       y: -430
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1232,7 +1232,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -1244,7 +1244,7 @@ MonoBehaviour:
       x: 5060
       y: -650
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1262,7 +1262,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -1274,7 +1274,7 @@ MonoBehaviour:
       x: 5240
       y: 470
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1292,7 +1292,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -1304,7 +1304,7 @@ MonoBehaviour:
       x: 5050
       y: -880
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1322,7 +1322,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -1334,7 +1334,7 @@ MonoBehaviour:
       x: 5320
       y: -160
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1352,7 +1352,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -1364,7 +1364,7 @@ MonoBehaviour:
       x: 5390
       y: -400
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1383,9 +1383,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1395,7 +1395,7 @@ MonoBehaviour:
       x: 6350
       y: -590
       width: 348
-      height: 170.4
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1414,9 +1414,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1426,7 +1426,7 @@ MonoBehaviour:
       x: 5890
       y: -860
       width: 348
-      height: 170.4
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1444,9 +1444,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1456,7 +1456,7 @@ MonoBehaviour:
       x: 6850
       y: -580
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1474,9 +1474,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1486,7 +1486,7 @@ MonoBehaviour:
       x: 7750
       y: -1410
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1504,9 +1504,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1516,7 +1516,7 @@ MonoBehaviour:
       x: 7220
       y: -1450
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1534,9 +1534,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1546,7 +1546,7 @@ MonoBehaviour:
       x: 7650
       y: -1240
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1564,9 +1564,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1576,7 +1576,7 @@ MonoBehaviour:
       x: 7890
       y: -1010
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1594,9 +1594,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1606,7 +1606,7 @@ MonoBehaviour:
       x: 7530
       y: -610
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1624,7 +1624,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -1636,7 +1636,7 @@ MonoBehaviour:
       x: 6240
       y: -370
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1655,9 +1655,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1667,7 +1667,7 @@ MonoBehaviour:
       x: 7020
       y: -360
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1686,9 +1686,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1698,7 +1698,7 @@ MonoBehaviour:
       x: 6100
       y: -170
       width: 348
-      height: 170.4
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1716,9 +1716,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1728,7 +1728,7 @@ MonoBehaviour:
       x: 7390
       y: -350
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1747,9 +1747,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1759,7 +1759,7 @@ MonoBehaviour:
       x: 5920
       y: -620
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1778,9 +1778,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1790,7 +1790,7 @@ MonoBehaviour:
       x: 6110
       y: -1230
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1809,9 +1809,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1821,7 +1821,7 @@ MonoBehaviour:
       x: 6310
       y: 170
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1840,9 +1840,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1852,7 +1852,7 @@ MonoBehaviour:
       x: 6740
       y: 150
       width: 348
-      height: 170.4
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1870,9 +1870,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1882,7 +1882,7 @@ MonoBehaviour:
       x: 7140
       y: 150
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1900,9 +1900,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1912,7 +1912,7 @@ MonoBehaviour:
       x: 7800
       y: 160
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1931,9 +1931,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -1943,7 +1943,7 @@ MonoBehaviour:
       x: 6770
       y: -810
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -1972,16 +1972,16 @@ MonoBehaviour:
       inputSetIndex: 58
       outputNodeIndex: 168
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 87
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
-      visible: 1
+      visible: 0
     - text: "\xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 58
@@ -1991,9 +1991,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 115
+        y: 140
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2003,7 +2003,7 @@ MonoBehaviour:
       x: 8160
       y: 500
       width: 348
-      height: 183
+      height: 206
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2022,9 +2022,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2034,7 +2034,7 @@ MonoBehaviour:
       x: 7340
       y: 480
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2052,9 +2052,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2064,7 +2064,7 @@ MonoBehaviour:
       x: 8720
       y: -650
       width: 348
-      height: 156
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2082,9 +2082,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2094,7 +2094,7 @@ MonoBehaviour:
       x: 7760
       y: 530
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2123,16 +2123,16 @@ MonoBehaviour:
       inputSetIndex: 62
       outputNodeIndex: 65
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 87
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
-      visible: 1
+      visible: 0
     - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 62
@@ -2142,9 +2142,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 115
+        y: 140
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2154,7 +2154,7 @@ MonoBehaviour:
       x: 8200
       y: 130
       width: 348
-      height: 183
+      height: 206
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2172,9 +2172,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2183,13 +2183,13 @@ MonoBehaviour:
       inputSetIndex: 63
       outputNodeIndex: 171
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 87
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2202,9 +2202,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 115
+        y: 140
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2214,7 +2214,7 @@ MonoBehaviour:
       x: 8200
       y: -120
       width: 348
-      height: 183
+      height: 206
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2233,9 +2233,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2245,7 +2245,7 @@ MonoBehaviour:
       x: 9000
       y: 520
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2275,7 +2275,7 @@ MonoBehaviour:
       x: 8860
       y: -830
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2293,49 +2293,49 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     - text: 2. Quiero volver a casa
       extraData: ExtraData
       inputSetIndex: 66
-      outputNodeIndex: 166
+      outputNodeIndex: -1
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
-        x: 300
-        y: 90
-        width: 30
-        height: 24
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
-      visible: 1
+      visible: 0
     - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 66
       outputNodeIndex: 166
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 300
-        y: 115
+        y: 140
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
-      visible: 1
+      visible: 0
     ID: 79
     rect:
       serializedVersion: 2
       x: 8250
       y: -1190
       width: 348
-      height: 183
+      height: 235
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2353,7 +2353,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -2365,7 +2365,7 @@ MonoBehaviour:
       x: 9140
       y: -1230
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2394,16 +2394,16 @@ MonoBehaviour:
       inputSetIndex: 68
       outputNodeIndex: 168
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 87
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
-      visible: 1
+      visible: 0
     - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 68
@@ -2422,10 +2422,10 @@ MonoBehaviour:
     ID: 82
     rect:
       serializedVersion: 2
-      x: 8240
-      y: -950
+      x: 8260
+      y: -970
       width: 348
-      height: 183
+      height: 206
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2443,9 +2443,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2455,7 +2455,7 @@ MonoBehaviour:
       x: 7780
       y: -130
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2473,9 +2473,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2488,9 +2488,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 87
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2499,23 +2499,23 @@ MonoBehaviour:
       inputSetIndex: 70
       outputNodeIndex: 166
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 300
-        y: 115
+        y: 111
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
-      visible: 1
+      visible: 0
     ID: 84
     rect:
       serializedVersion: 2
       x: 8200
       y: -530
       width: 348
-      height: 183
+      height: 206
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2533,9 +2533,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2544,28 +2544,28 @@ MonoBehaviour:
       inputSetIndex: 71
       outputNodeIndex: 168
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 87
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
-      visible: 1
+      visible: 0
     - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 71
       outputNodeIndex: 166
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 300
-        y: 115
+        y: 140
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2575,7 +2575,7 @@ MonoBehaviour:
       x: 8200
       y: -320
       width: 348
-      height: 183
+      height: 235
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2593,9 +2593,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2604,38 +2604,38 @@ MonoBehaviour:
       inputSetIndex: 72
       outputNodeIndex: 171
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 87
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
-      visible: 1
+      visible: 0
     - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 72
       outputNodeIndex: 166
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 300
-        y: 115
+        y: 140
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
-      visible: 1
+      visible: 0
     ID: 86
     rect:
       serializedVersion: 2
       x: 8250
       y: -1430
       width: 348
-      height: 183
+      height: 235
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2653,9 +2653,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2665,7 +2665,7 @@ MonoBehaviour:
       x: 7740
       y: -790
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2679,31 +2679,31 @@ MonoBehaviour:
       inputSetIndex: 74
       outputNodeIndex: 75
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
-      visible: 1
+      visible: 0
     - text: 2. Quiero volver a casa
       extraData: ExtraData
       inputSetIndex: 74
       outputNodeIndex: 76
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 300
-        y: 90
+        y: 116
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
-      visible: 1
+      visible: 0
     - text: "3. \xBFA qui\xE9n llamar\xEDas?"
       extraData: ExtraData
       inputSetIndex: 74
@@ -2713,9 +2713,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 300
-        y: 115
+        y: 169
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2725,7 +2725,7 @@ MonoBehaviour:
       x: 8210
       y: -740
       width: 348
-      height: 183
+      height: 235
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2743,7 +2743,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -2752,10 +2752,10 @@ MonoBehaviour:
     ID: 90
     rect:
       serializedVersion: 2
-      x: 9520
-      y: -2520
+      x: 9600
+      y: -2530
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2773,19 +2773,19 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 91
     rect:
       serializedVersion: 2
-      x: 9540
-      y: -2310
+      x: 9600
+      y: -2280
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2804,19 +2804,19 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 92
     rect:
       serializedVersion: 2
-      x: 9430
-      y: -2020
+      x: 9600
+      y: -2040
       width: 348
-      height: 170.4
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2834,9 +2834,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2846,7 +2846,7 @@ MonoBehaviour:
       x: 10800
       y: -2400
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2864,9 +2864,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2876,7 +2876,7 @@ MonoBehaviour:
       x: 10730
       y: -2170
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2894,7 +2894,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -2906,7 +2906,7 @@ MonoBehaviour:
       x: 10120
       y: -1770
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2924,9 +2924,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2936,7 +2936,7 @@ MonoBehaviour:
       x: 9540
       y: -1230
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2954,7 +2954,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -2966,7 +2966,7 @@ MonoBehaviour:
       x: 10040
       y: -1240
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -2984,9 +2984,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -2996,7 +2996,7 @@ MonoBehaviour:
       x: 9770
       y: -730
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3014,7 +3014,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3023,10 +3023,10 @@ MonoBehaviour:
     ID: 99
     rect:
       serializedVersion: 2
-      x: 10140
-      y: -660
+      x: 10210
+      y: -650
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3044,7 +3044,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3056,7 +3056,7 @@ MonoBehaviour:
       x: 9640
       y: 520
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3074,7 +3074,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3083,10 +3083,10 @@ MonoBehaviour:
     ID: 102
     rect:
       serializedVersion: 2
-      x: 9410
-      y: -750
+      x: 9350
+      y: -760
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3104,19 +3104,19 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 103
     rect:
       serializedVersion: 2
-      x: 8720
-      y: -1240
+      x: 8740
+      y: -1250
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3135,9 +3135,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -3147,7 +3147,7 @@ MonoBehaviour:
       x: 6680
       y: -1470
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3166,9 +3166,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -3178,7 +3178,7 @@ MonoBehaviour:
       x: 5350
       y: -1510
       width: 348
-      height: 170.4
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3196,7 +3196,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3208,7 +3208,7 @@ MonoBehaviour:
       x: 6220
       y: -1460
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3227,9 +3227,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -3239,7 +3239,7 @@ MonoBehaviour:
       x: 5490
       y: -880
       width: 348
-      height: 170.4
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3257,7 +3257,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3269,7 +3269,7 @@ MonoBehaviour:
       x: 6330
       y: -820
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3287,7 +3287,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3299,7 +3299,7 @@ MonoBehaviour:
       x: 6560
       y: -130
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3318,9 +3318,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -3330,7 +3330,7 @@ MonoBehaviour:
       x: 5720
       y: -170
       width: 348
-      height: 170.4
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3349,9 +3349,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -3361,7 +3361,7 @@ MonoBehaviour:
       x: 6970
       y: -140
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3379,9 +3379,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -3391,7 +3391,7 @@ MonoBehaviour:
       x: 7380
       y: -170
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3409,7 +3409,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3421,7 +3421,7 @@ MonoBehaviour:
       x: -220
       y: -570
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3439,9 +3439,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -3451,7 +3451,7 @@ MonoBehaviour:
       x: 1220
       y: -550
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3469,7 +3469,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3481,7 +3481,7 @@ MonoBehaviour:
       x: 3530
       y: -1140
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3499,7 +3499,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3511,7 +3511,7 @@ MonoBehaviour:
       x: 2920
       y: -640
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3530,9 +3530,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -3542,7 +3542,7 @@ MonoBehaviour:
       x: 4190
       y: -80
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3560,7 +3560,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3572,7 +3572,7 @@ MonoBehaviour:
       x: 5490
       y: -630
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3591,7 +3591,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3603,7 +3603,7 @@ MonoBehaviour:
       x: 5360
       y: -1220
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3621,7 +3621,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3633,7 +3633,7 @@ MonoBehaviour:
       x: 5750
       y: -1220
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3652,7 +3652,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3664,7 +3664,7 @@ MonoBehaviour:
       x: 5380
       y: 100
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3682,7 +3682,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3694,7 +3694,7 @@ MonoBehaviour:
       x: 5780
       y: 130
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3712,7 +3712,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3724,7 +3724,7 @@ MonoBehaviour:
       x: 6620
       y: -370
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3742,7 +3742,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3754,7 +3754,7 @@ MonoBehaviour:
       x: 5810
       y: -400
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3772,7 +3772,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3784,7 +3784,7 @@ MonoBehaviour:
       x: 5680
       y: 470
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3802,7 +3802,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3814,7 +3814,7 @@ MonoBehaviour:
       x: 6120
       y: 480
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3832,7 +3832,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3844,7 +3844,7 @@ MonoBehaviour:
       x: 6530
       y: 480
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3862,7 +3862,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3874,7 +3874,7 @@ MonoBehaviour:
       x: 6950
       y: 480
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3892,9 +3892,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -3904,7 +3904,7 @@ MonoBehaviour:
       x: 7260
       y: -800
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3922,7 +3922,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3934,7 +3934,7 @@ MonoBehaviour:
       x: 6710
       y: -1030
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3952,7 +3952,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -3964,7 +3964,7 @@ MonoBehaviour:
       x: 7150
       y: -1030
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -3983,9 +3983,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -3995,7 +3995,7 @@ MonoBehaviour:
       x: 10150
       y: 510
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4013,7 +4013,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -4025,7 +4025,7 @@ MonoBehaviour:
       x: 12100
       y: -2120
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4043,7 +4043,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -4055,7 +4055,7 @@ MonoBehaviour:
       x: 12470
       y: -2010
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4073,7 +4073,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -4085,7 +4085,7 @@ MonoBehaviour:
       x: 12900
       y: -2020
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4104,9 +4104,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4116,7 +4116,7 @@ MonoBehaviour:
       x: 13360
       y: -2040
       width: 348
-      height: 170.4
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4134,9 +4134,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4146,7 +4146,7 @@ MonoBehaviour:
       x: 13860
       y: -2030
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4164,9 +4164,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4176,7 +4176,7 @@ MonoBehaviour:
       x: 14280
       y: -2040
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4194,9 +4194,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4206,7 +4206,7 @@ MonoBehaviour:
       x: 14700
       y: -1840
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4225,9 +4225,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4237,7 +4237,7 @@ MonoBehaviour:
       x: 15100
       y: -1840
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4256,9 +4256,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4268,7 +4268,7 @@ MonoBehaviour:
       x: 15500
       y: -1830
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4287,19 +4287,19 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 127
     rect:
       serializedVersion: 2
-      x: 15070
+      x: 15050
       y: -1570
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4317,9 +4317,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4329,7 +4329,7 @@ MonoBehaviour:
       x: 14470
       y: -1330
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4347,9 +4347,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4359,7 +4359,7 @@ MonoBehaviour:
       x: 14900
       y: -1330
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4377,9 +4377,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4389,7 +4389,7 @@ MonoBehaviour:
       x: 14480
       y: -1140
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4407,7 +4407,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -4419,7 +4419,7 @@ MonoBehaviour:
       x: 14900
       y: -1150
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4437,9 +4437,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4449,7 +4449,7 @@ MonoBehaviour:
       x: 14280
       y: -920
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4467,9 +4467,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4479,7 +4479,7 @@ MonoBehaviour:
       x: 14750
       y: -920
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4497,9 +4497,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4509,7 +4509,7 @@ MonoBehaviour:
       x: 15160
       y: -910
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4527,7 +4527,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -4539,7 +4539,7 @@ MonoBehaviour:
       x: 14350
       y: -710
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4557,7 +4557,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -4569,7 +4569,7 @@ MonoBehaviour:
       x: 14740
       y: -720
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4587,9 +4587,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4599,7 +4599,7 @@ MonoBehaviour:
       x: 14340
       y: -470
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4608,7 +4608,7 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: "El nombre lleg\xF3 a m\xED como una estrella fugaz."
+    - text: "El nombre lleg\xF3 a m\xED como una estrella fugaz..."
       extraData: ExtraData
       inputSetIndex: 137
       outputNodeIndex: 165
@@ -4617,7 +4617,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -4629,7 +4629,7 @@ MonoBehaviour:
       x: 14810
       y: -440
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4647,9 +4647,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4659,7 +4659,7 @@ MonoBehaviour:
       x: 14650
       y: 70
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4677,7 +4677,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -4689,7 +4689,7 @@ MonoBehaviour:
       x: 14800
       y: 510
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4707,7 +4707,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -4719,7 +4719,7 @@ MonoBehaviour:
       x: 14790
       y: 280
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4737,9 +4737,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 33
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4749,7 +4749,7 @@ MonoBehaviour:
       x: 14790
       y: 750
       width: 348
-      height: 141.6
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4767,9 +4767,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4779,7 +4779,7 @@ MonoBehaviour:
       x: 14450
       y: -1560
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4797,7 +4797,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -4809,7 +4809,7 @@ MonoBehaviour:
       x: 15150
       y: 70
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4827,9 +4827,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4839,7 +4839,7 @@ MonoBehaviour:
       x: 14780
       y: 970
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4857,9 +4857,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4869,7 +4869,7 @@ MonoBehaviour:
       x: 9430
       y: -530
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4887,9 +4887,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4899,7 +4899,7 @@ MonoBehaviour:
       x: 10550
       y: 210
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4917,7 +4917,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -4929,7 +4929,7 @@ MonoBehaviour:
       x: 3170
       y: -1140
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4947,19 +4947,19 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 164
     rect:
       serializedVersion: 2
-      x: 9840
+      x: 10100
       y: -2010
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -4977,9 +4977,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -4989,7 +4989,7 @@ MonoBehaviour:
       x: 10400
       y: -1500
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5008,9 +5008,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -5020,7 +5020,7 @@ MonoBehaviour:
       x: 11100
       y: -1400
       width: 348
-      height: 170.4
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5039,9 +5039,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 76
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -5051,7 +5051,7 @@ MonoBehaviour:
       x: 10640
       y: -1780
       width: 348
-      height: 184.8
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5070,9 +5070,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -5082,7 +5082,7 @@ MonoBehaviour:
       x: 11010
       y: -1820
       width: 348
-      height: 170.4
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5100,7 +5100,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -5112,7 +5112,7 @@ MonoBehaviour:
       x: 11420
       y: -1850
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5130,9 +5130,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -5142,7 +5142,7 @@ MonoBehaviour:
       x: 10550
       y: -1260
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5160,7 +5160,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -5172,7 +5172,7 @@ MonoBehaviour:
       x: 12050
       y: -2460
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5190,9 +5190,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -5202,7 +5202,7 @@ MonoBehaviour:
       x: 11800
       y: -1810
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5220,7 +5220,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -5232,7 +5232,7 @@ MonoBehaviour:
       x: 12500
       y: -2460
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5251,9 +5251,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 61
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -5263,7 +5263,7 @@ MonoBehaviour:
       x: 12980
       y: -2420
       width: 348
-      height: 170.4
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5282,9 +5282,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -5294,7 +5294,7 @@ MonoBehaviour:
       x: 13340
       y: -2430
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5312,9 +5312,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -5324,7 +5324,7 @@ MonoBehaviour:
       x: 13730
       y: -2360
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5343,9 +5343,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -5355,7 +5355,7 @@ MonoBehaviour:
       x: 14190
       y: -2280
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5373,9 +5373,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -5385,7 +5385,7 @@ MonoBehaviour:
       x: 14610
       y: -2290
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5403,9 +5403,9 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -5415,7 +5415,7 @@ MonoBehaviour:
       x: 15390
       y: -1310
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5424,18 +5424,19 @@ MonoBehaviour:
     isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Aunque ninguno de ellos me encajaba... Ariel... Cassiopea... Bellatrix...
+    - text: "Aunque nunca me decid\xED por ninguno, siempre ten\xEDa claro que quer\xEDa
+        que fuese el nombre de un cuerpo celeste."
       extraData: ExtraData
       inputSetIndex: 164
-      outputNodeIndex: 136
+      outputNodeIndex: 174
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
@@ -5445,7 +5446,7 @@ MonoBehaviour:
       x: 15120
       y: -730
       width: 348
-      height: 156
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5454,8 +5455,8 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: "Recuerdo que siempre quisiste darme un nombre relacionado con alg\xFAn
-        cuerpo estelar."
+    - text: "Recordando aquellos veranos que de peque\xF1a me llevabas al monte m\xE1s
+        alto a ver la hermosa lluvia de meteoros."
       extraData: ExtraData
       inputSetIndex: 165
       outputNodeIndex: -1
@@ -5464,19 +5465,19 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 63
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 184
     rect:
       serializedVersion: 2
-      x: 15210
-      y: -450
+      x: 15220
+      y: -430
       width: 348
-      height: 156
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5495,19 +5496,19 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 47
+        height: 48
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 160
     rect:
       serializedVersion: 2
-      x: 8950
-      y: -370
+      x: 9000
+      y: -420
       width: 348
-      height: 156
+      height: 154
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5525,7 +5526,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -5537,7 +5538,7 @@ MonoBehaviour:
       x: 9510
       y: -360
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5555,7 +5556,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -5564,10 +5565,10 @@ MonoBehaviour:
     ID: 187
     rect:
       serializedVersion: 2
-      x: 8860
-      y: -1020
+      x: 8850
+      y: -260
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5585,7 +5586,7 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
         height: 33
       sprites: {fileID: 0}
@@ -5597,7 +5598,7 @@ MonoBehaviour:
       x: 9310
       y: -980
       width: 348
-      height: 141.6
+      height: 139
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5615,19 +5616,19 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 190
     rect:
       serializedVersion: 2
-      x: 9760
-      y: -970
+      x: 9750
+      y: -1000
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5645,19 +5646,19 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 195
     rect:
       serializedVersion: 2
-      x: 9370
-      y: -120
+      x: 9130
+      y: -150
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5687,7 +5688,7 @@ MonoBehaviour:
       x: 11240
       y: -710
       width: 348
-      height: 133
+      height: 129
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5705,19 +5706,111 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 65
+        y: 63
         width: 30
-        height: 24
+        height: 23
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 162
     rect:
       serializedVersion: 2
-      x: 10000
-      y: -360
+      x: 10060
+      y: -170
       width: 348
-      height: 133
+      height: 129
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Bellatrix, la guerrera estrella que sostiene el peso del arco de Ori\xF3n."
+      extraData: ExtraData
+      inputSetIndex: 174
+      outputNodeIndex: 175
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 150
+    rect:
+      serializedVersion: 2
+      x: 15600
+      y: -1000
+      width: 348
+      height: 139
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Miranda o Ariel, las m\xE1s peque\xF1as de las lunas de Urano, rotando
+        y orbitando en armon\xEDa, mostrando siempre la misma cara."
+      extraData: ExtraData
+      inputSetIndex: 175
+      outputNodeIndex: 176
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 63
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 152
+    rect:
+      serializedVersion: 2
+      x: 15550
+      y: -840
+      width: 348
+      height: 169
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Cassiopea, la constelaci\xF3n que, aun exiliada en el cielo, est\xE1
+        acompa\xF1ada por sus seres queridos."
+      extraData: ExtraData
+      inputSetIndex: 176
+      outputNodeIndex: 136
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 63
+        width: 30
+        height: 63
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 153
+    rect:
+      serializedVersion: 2
+      x: 15490
+      y: -620
+      width: 348
+      height: 169
     pTag: 
     expand: 0
     sprite: {fileID: 0}
@@ -5760,7 +5853,7 @@ MonoBehaviour:
       x: -360
       y: -410
       width: 200
-      height: 174
+      height: 170
     ID: 149
     outPlayerIndex: 97
     outActionIndex: -1
@@ -5800,9 +5893,9 @@ MonoBehaviour:
     rect:
       serializedVersion: 2
       x: -890
-      y: -420
+      y: -400
       width: 200
-      height: 174
+      height: 170
     ID: 151
     outPlayerIndex: 1
     outActionIndex: -1
@@ -5844,7 +5937,7 @@ MonoBehaviour:
       x: 4570
       y: -300
       width: 200
-      height: 174
+      height: 170
     ID: 155
     outPlayerIndex: 19
     outActionIndex: -1
@@ -5886,7 +5979,7 @@ MonoBehaviour:
       x: 2760
       y: -20
       width: 200
-      height: 174
+      height: 170
     ID: 156
     outPlayerIndex: 5
     outActionIndex: -1
@@ -5928,7 +6021,7 @@ MonoBehaviour:
       x: 6110
       y: 280
       width: 200
-      height: 174
+      height: 170
     ID: 158
     outPlayerIndex: 53
     outActionIndex: -1
@@ -5971,7 +6064,7 @@ MonoBehaviour:
       x: 10810
       y: -1450
       width: 200
-      height: 174
+      height: 170
     ID: 171
     outPlayerIndex: 150
     outActionIndex: -1
@@ -6014,7 +6107,7 @@ MonoBehaviour:
       x: 11390
       y: -1610
       width: 200
-      height: 174
+      height: 170
     ID: 172
     outPlayerIndex: 153
     outActionIndex: -1
@@ -6052,7 +6145,7 @@ MonoBehaviour:
       x: 15040
       y: -2520
       width: 200
-      height: 174
+      height: 170
     ID: 181
     outPlayerIndex: -1
     outActionIndex: -1
@@ -6095,7 +6188,7 @@ MonoBehaviour:
       x: 14890
       y: -180
       width: 200
-      height: 174
+      height: 170
     ID: 185
     outPlayerIndex: 138
     outActionIndex: -1
@@ -6138,7 +6231,7 @@ MonoBehaviour:
       x: 15310
       y: 320
       width: 200
-      height: 174
+      height: 170
     ID: 145
     outPlayerIndex: 139
     outActionIndex: -1
@@ -6181,7 +6274,7 @@ MonoBehaviour:
       x: 11820
       y: -2010
       width: 200
-      height: 174
+      height: 170
     ID: 186
     outPlayerIndex: 31
     outActionIndex: -1
@@ -6221,7 +6314,7 @@ MonoBehaviour:
       x: 14900
       y: 1190
       width: 200
-      height: 174
+      height: 170
     ID: 189
     outPlayerIndex: -1
     outActionIndex: -1
@@ -6264,7 +6357,7 @@ MonoBehaviour:
       x: 9130
       y: -630
       width: 200
-      height: 174
+      height: 170
     ID: 191
     outPlayerIndex: 86
     outActionIndex: -1
@@ -6307,7 +6400,7 @@ MonoBehaviour:
       x: 7550
       y: 150
       width: 200
-      height: 174
+      height: 170
     ID: 192
     outPlayerIndex: 56
     outActionIndex: -1
@@ -6350,7 +6443,7 @@ MonoBehaviour:
       x: 7260
       y: -620
       width: 200
-      height: 174
+      height: 170
     ID: 193
     outPlayerIndex: 46
     outActionIndex: -1
@@ -6393,7 +6486,7 @@ MonoBehaviour:
       x: 7350
       y: -1250
       width: 200
-      height: 174
+      height: 170
     ID: 194
     outPlayerIndex: 44
     outActionIndex: -1
@@ -6436,7 +6529,7 @@ MonoBehaviour:
       x: 9100
       y: -1410
       width: 200
-      height: 174
+      height: 170
     ID: 196
     outPlayerIndex: 67
     outActionIndex: -1
