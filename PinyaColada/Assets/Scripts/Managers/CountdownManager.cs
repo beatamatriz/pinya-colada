@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class CountdownManager : MonoBehaviour {
     [Header("Time Variables")]
     [Range(0, 1800)] [Tooltip("Avaliable time")] public float time;
-    
+
     public float timeSpeed = 1;
     public float timeFastSpeed = 1;
     public bool isGameStarted = false;
@@ -14,8 +14,9 @@ public class CountdownManager : MonoBehaviour {
     public GameObject meteorite;
     public Transform meteoriteObjective;
     public List<Image> colorChangeObjects;
-    public float orangeRoomLifetimeSpeed;
-    
+    public float orangeRoomLifetime;
+    public float orangeFadeMultiplier;
+
 
 
     void Update() {
@@ -37,7 +38,7 @@ public class CountdownManager : MonoBehaviour {
 
     void AlphaChange() {
         foreach (Image c in colorChangeObjects) {
-            c.color = new Color(c.color.r, c.color.g, c.color.b, c.color.a - Time.deltaTime * orangeRoomLifetimeSpeed);
+            c.color = new Color(c.color.r, c.color.g, c.color.b, (time - Time.deltaTime * orangeFadeMultiplier) / time * 100);
         }
     }
 
