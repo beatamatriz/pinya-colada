@@ -1817,9 +1817,65 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1414164207}
     - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.ctime0
+      value: 19661
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.ctime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.ctime2
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.key0.b
+      value: 0.3301887
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.key0.g
+      value: 0.21867527
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.key0.r
+      value: 0.14173195
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.key1.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.key1.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.key1.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.key2.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.key2.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.key2.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: colorChangeObjects.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: BGColorTransition.m_NumColorKeys
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
       propertyPath: colorChangeObjects.Array.data[0]
       value: 
-      objectReference: {fileID: 1156779275}
+      objectReference: {fileID: 117951947}
     - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
       propertyPath: colorChangeObjects.Array.data[1]
       value: 

@@ -7,6 +7,7 @@ public class ManagerRefs : MonoBehaviour {
     [HideInInspector] public CountdownManager cM;
     [HideInInspector] public GameManager gM;
     [HideInInspector] public AudioManager aM;
+    [HideInInspector] public InteractablesManager iM;
 
     private void Awake() {
         if (instance == null) {
@@ -18,5 +19,6 @@ public class ManagerRefs : MonoBehaviour {
         cM = GetComponent<CountdownManager>();
         gM = GetComponent<GameManager>();
         aM = GetComponent<AudioManager>();
+        iM = GetComponent<InteractablesManager>();
     }
 }

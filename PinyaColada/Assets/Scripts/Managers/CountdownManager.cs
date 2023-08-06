@@ -14,8 +14,8 @@ public class CountdownManager : MonoBehaviour {
     public GameObject meteorite;
     public Transform meteoriteObjective;
     public List<Image> colorChangeObjects;
-    public float orangeRoomLifetime;
-    public float orangeFadeMultiplier;
+
+    public Gradient BGColorTransition;
 
 
 
@@ -33,13 +33,19 @@ public class CountdownManager : MonoBehaviour {
 
             MeteoriteFall();
             AlphaChange();
+            SkyChange();
         }
     }
 
     void AlphaChange() {
         foreach (Image c in colorChangeObjects) {
-            c.color = new Color(c.color.r, c.color.g, c.color.b, (time - Time.deltaTime * orangeFadeMultiplier) / time * 100);
+            c.color = new Color(c.color.r, c.color.g, c.color.b, (time - Time.deltaTime) / time * 100);
         }
+    }
+
+    void SkyChange() {
+        float BGColorPos = (time - Time.deltaTime) / time * 100;
+        Camera.main.backgroundColor = BGColorTransition.Evaluate(BGColorPos);
     }
 
     void MeteoriteFall() {
