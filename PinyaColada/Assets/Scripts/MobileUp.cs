@@ -11,7 +11,7 @@ public class MobileUp : MonoBehaviour
     public GameObject buttonAdvanceDialogue;
     public float timeCalling = 2;
     public Mobile mobile;
-    bool canEndialog = false;
+    bool canEndDialog = false;
     private void Start()
     {
         gameObject.SetActive(false);
@@ -43,9 +43,10 @@ public class MobileUp : MonoBehaviour
     }
     public void EndDialogue()
     {
-        if (canEndialog)
+        if (canEndDialog)
         {
-            mobile.gameObject.SetActive(true);
+            //El diálogo se buguea si se vuelve a hablar por teléfono, así que solución temporal.
+            //mobile.gameObject.SetActive(true);
             mobileUp.sprite = mobileAgenda;
             buttonAdvanceDialogue.SetActive(false);
             print("ending dialogue");
@@ -54,7 +55,7 @@ public class MobileUp : MonoBehaviour
             dialogueContainer.backPlayer.SetActive(false);
             gameObject.SetActive(false);
         }
-        canEndialog = true;
+        canEndDialog = true;
     }
 }
 public enum Contacts

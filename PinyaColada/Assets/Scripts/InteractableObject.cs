@@ -13,6 +13,7 @@ public class InteractableObject : MonoBehaviour {
     public bool endWritingFirst = false;
     
     public void CallInteraction() {
+        //Se llama al método de iniciar texto del InteractionManager, y se le devuelven las referencias pertinentes.
         ManagerRefs.instance.iM.DisplayText(objText, bGPanel, objTextbox);
     }
 }

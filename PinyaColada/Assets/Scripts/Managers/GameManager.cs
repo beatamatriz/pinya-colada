@@ -11,22 +11,17 @@ public class GameManager : MonoBehaviour {
     public float MainScreenSafeTime = 1;
     public Mobile mobileSmall;
 
-    public void PlayMusic()
-    {
-        ManagerRefs.instance.aM.Play(0);
-    }
+    //private void Start() {
+    //    PlayerElections.instance.aM.Play(0);
+    //}
 
-    private void Update()
-    {
-        if (mainScreen.activeInHierarchy)
-        {
-            if (startGameCounter > 0)
-            {
+    private void Update() {
+        if (mainScreen.activeInHierarchy) {
+            if (startGameCounter > 0) {
                 startGameCounter -= Time.deltaTime;
             }
 
-            if (Input.GetMouseButtonDown(0) && startGameCounter <= 0)
-            {
+            if (Input.GetMouseButtonDown(0) && startGameCounter <= 0) {
                 mainScreen.GetComponent<Animator>().SetTrigger("Start");
                 ManagerRefs.instance.cM.isGameStarted = true;
                 mobileSmall.PhoneSetup();

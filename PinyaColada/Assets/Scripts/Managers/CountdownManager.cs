@@ -6,18 +6,24 @@ using UnityEngine.UI;
 public class CountdownManager : MonoBehaviour {
     [Header("Time Variables")]
     [Range(0, 1800)] [Tooltip("Avaliable time")] public float time;
+    private float iniTime;
 
     public float timeSpeed = 1;
     public float timeFastSpeed = 1;
     public bool isGameStarted = false;
 
+    [Space]
+
     public GameObject meteorite;
+    public float meteoriteSpeed = 1;
     public Transform meteoriteObjective;
-    public List<Image> colorChangeObjects;
+    public Image colorChangeObject;
 
     public Gradient BGColorTransition;
 
-
+    private void Start() {
+        iniTime = time;
+    }
 
     void Update() {
         if (isGameStarted) {
@@ -26,7 +32,7 @@ public class CountdownManager : MonoBehaviour {
             }
 
             if (time <= 0) {
-                UnityEngine.SceneManagement.SceneManager.LoadScene(1);
+                UnityEngine.SceneManagement.SceneManager.LoadScene(2);
             }
 
             time -= Time.deltaTime * timeSpeed;
@@ -38,9 +44,7 @@ public class CountdownManager : MonoBehaviour {
     }
 
     void AlphaChange() {
-        foreach (Image c in colorChangeObjects) {
-            c.color = new Color(c.color.r, c.color.g, c.color.b, (time - Time.deltaTime) / time * 100);
-        }
+        colorChangeObject.color = new Color(colorChangeObject.color.r, colorChangeObject.color.g, colorChangeObject.color.b, (time - Time.deltaTime) / time * 100);
     }
 
     void SkyChange() {
@@ -49,7 +53,7 @@ public class CountdownManager : MonoBehaviour {
     }
 
     void MeteoriteFall() {
-        meteorite.transform.position = Vector3.MoveTowards(meteorite.transform.position, meteoriteObjective.position, timeSpeed * Time.deltaTime);
+        meteorite.transform.position = Vector3.Lerp(meteorite.transform.position, meteoriteObjective.position, meteoriteSpeed/iniTime * Time.deltaTime);
     }
 
     public void UpdateTimeSpeed() {

@@ -25,13 +25,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6905323880026165237}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 963.9611, y: 521.316, z: -89.5157}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8243327964435595240
 MonoBehaviour:
@@ -49,25 +49,25 @@ MonoBehaviour:
   - name: Musica
     clip: {fileID: 8300000, guid: 5b583c7ae65dbee7bbcea9481c59f82a, type: 3}
     volume: 0.501
-    pitch: 0
-    loop: 1
+    pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Meteorito
     clip: {fileID: 8300000, guid: 953542f84a7ec63ddb15b6f3ab19e91e, type: 3}
     volume: 0.583
-    pitch: 0
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Final Bueno
     clip: {fileID: 8300000, guid: 8024ad918f4aab93088661a6e59d9e4b, type: 3}
     volume: 0.463
-    pitch: 0
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Final Malo
     clip: {fileID: 8300000, guid: 9c708ef78a1f99393bfd41a46ccddc0b, type: 3}
     volume: 0.508
-    pitch: 0
+    pitch: 1
     loop: 0
     source: {fileID: 0}
 --- !u!114 &9054011287563685885
@@ -83,6 +83,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aM: {fileID: 0}
-  endIndex: 0
+  goodEnding: 0
   endScene:
     m_Handle: 0

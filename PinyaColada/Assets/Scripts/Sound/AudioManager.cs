@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 public class AudioManager : MonoBehaviour {
     public List<Sound> sounds;
+
     private void Awake() {
         foreach (Sound s in sounds) {
             s.source = gameObject.AddComponent<AudioSource>();

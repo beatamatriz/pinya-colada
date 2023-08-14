@@ -10,24 +10,23 @@ public class Mobile : MonoBehaviour
     public float timeToMakePhoneInteractable = 4;
     public GameObject mobileUI;
     public GameObject arrowContinue;
-    void Start()
-    {
+    
+    void Start() {
         mobile.sprite = blackAndWhite;
         mobileButton.enabled = false;
         arrowContinue.SetActive(false);
     }
-    public void PhoneSetup()
-    {
+
+    public void PhoneSetup() {
         Invoke(nameof(MakePhoneInteractable), timeToMakePhoneInteractable);
     }
-    // Start is called before the first frame update
-    public void MakePhoneInteractable()
-    {
+
+    public void MakePhoneInteractable() {
         GetComponent<Image>().sprite = colouredMobile;
         mobileButton.enabled = true;
     }
-    public void InteractWithMobile()
-    {
+
+    public void InteractWithMobile() {
         print("Interacting with mobileUI");
         mobileUI.SetActive(true);
         arrowContinue.SetActive(true);
