@@ -30,15 +30,13 @@ public class GameManager : MonoBehaviour {
         }
     }
 
-    IEnumerator MainScreenSafe()
-    {
+    IEnumerator MainScreenSafe() {
         yield return new WaitForSeconds(MainScreenSafeTime);
 
         mainScreen.SetActive(false);
     }
 
-    public void CallWin()
-    {
+    public void CallWin() {
         PlayerElections.instance.goodEnding = true;
     }
 }

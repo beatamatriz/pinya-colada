@@ -26,6 +26,10 @@ public class Mobile : MonoBehaviour
         mobileButton.enabled = true;
     }
 
+    public void PlayMobileSFX() {
+        AudioManager.ins.Play(4);
+    }
+
     public void InteractWithMobile() {
         print("Interacting with mobileUI");
         mobileUI.SetActive(true);

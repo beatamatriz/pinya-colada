@@ -16,6 +16,7 @@ public class CountdownManager : MonoBehaviour {
 
     public GameObject meteorite;
     public float meteoriteSpeed = 1;
+    public float timeBeforeMeteoriteFall;
     public Transform meteoriteObjective;
     public Image colorChangeObject;
 
@@ -23,7 +24,10 @@ public class CountdownManager : MonoBehaviour {
 
     private void Start() {
         iniTime = time;
+        StartCoroutine(MeteoriteFallSFX());
     }
+
+    //Indice de sonido de meteorito = 1
 
     void Update() {
         if (isGameStarted) {
@@ -54,6 +58,12 @@ public class CountdownManager : MonoBehaviour {
 
     void MeteoriteFall() {
         meteorite.transform.position = Vector3.Lerp(meteorite.transform.position, meteoriteObjective.position, meteoriteSpeed/iniTime * Time.deltaTime);
+    }
+
+    IEnumerator MeteoriteFallSFX() {
+        yield return new WaitForSeconds(iniTime - timeBeforeMeteoriteFall);
+
+        AudioManager.ins.Play(1);
     }
 
     public void UpdateTimeSpeed() {

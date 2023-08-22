@@ -180,12 +180,44 @@ PrefabInstance:
       value: Non Destructible Managers
       objectReference: {fileID: 0}
     - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 69897185c9a0571478380f02bcab0758, type: 3}
+    - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
       propertyPath: sounds.Array.data[0].loop
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
+      propertyPath: sounds.Array.data[1].name
+      value: Meteorito final
+      objectReference: {fileID: 0}
+    - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
+      propertyPath: sounds.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9c708ef78a1f99393bfd41a46ccddc0b, type: 3}
+    - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
+      propertyPath: sounds.Array.data[2].name
+      value: Final Malo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
+      propertyPath: sounds.Array.data[3].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8024ad918f4aab93088661a6e59d9e4b, type: 3}
+    - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
+      propertyPath: sounds.Array.data[3].name
+      value: Final Bueno
+      objectReference: {fileID: 0}
+    - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
       propertyPath: sounds.Array.data[1].volume
       value: 0.155
+      objectReference: {fileID: 0}
+    - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
+      propertyPath: sounds.Array.data[2].volume
+      value: 0.508
+      objectReference: {fileID: 0}
+    - target: {fileID: 8243327964435595240, guid: c18b055506140cb4181a6aec2872306f, type: 3}
+      propertyPath: sounds.Array.data[3].volume
+      value: 0.463
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

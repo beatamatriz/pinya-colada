@@ -1950,6 +1950,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1414164207}
     - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
+      propertyPath: timeBeforeMeteoriteFall
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 409263343308378134, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
       propertyPath: BGColorTransition.ctime0
       value: 19661
       objectReference: {fileID: 0}
@@ -2085,15 +2089,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Managers
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4117446082697788090, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6901701523832411688, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
-      insertIndex: 4
-      addedObject: {fileID: 1185876849}
-    - targetCorrespondingSourceObject: {fileID: 6901701523832411688, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
-      insertIndex: 5
+      insertIndex: -1
       addedObject: {fileID: 1185876850}
   m_SourcePrefab: {fileID: 100100000, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
 --- !u!1 &1185876848 stripped
@@ -2101,43 +2103,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6901701523832411688, guid: 3cded2c23429b9946b9c1847a0965f18, type: 3}
   m_PrefabInstance: {fileID: 1185876847}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1185876849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1185876848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9811923aaeb93a34ab3ed824e7690950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sounds:
-  - name: Musica
-    clip: {fileID: 8300000, guid: 5b583c7ae65dbee7bbcea9481c59f82a, type: 3}
-    volume: 0.501
-    pitch: 0
-    loop: 0
-    source: {fileID: 0}
-  - name: Meteorito
-    clip: {fileID: 8300000, guid: 953542f84a7ec63ddb15b6f3ab19e91e, type: 3}
-    volume: 0.155
-    pitch: 0
-    loop: 0
-    source: {fileID: 0}
-  - name: Final Bueno
-    clip: {fileID: 8300000, guid: 8024ad918f4aab93088661a6e59d9e4b, type: 3}
-    volume: 0.463
-    pitch: 0
-    loop: 0
-    source: {fileID: 0}
-  - name: Final Malo
-    clip: {fileID: 8300000, guid: 9c708ef78a1f99393bfd41a46ccddc0b, type: 3}
-    volume: 0.508
-    pitch: 0
-    loop: 0
-    source: {fileID: 0}
 --- !u!114 &1185876850
 MonoBehaviour:
   m_ObjectHideFlags: 0
